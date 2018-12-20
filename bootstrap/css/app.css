@@ -5,7 +5,16 @@
    /* background: red; */
    background-image: url("images/Rectangle32.png");
 }
-
+.w-85{
+    width: 85%;
+}
+.trans{
+    transform: translateX(-50%);
+}
+.img-rounded-sm{
+    width: 150px;
+    height: 150px;
+}
 /* @import url('https://fonts.googleapis.com/css?family=Poppins');
 body{
     font-family:'Poppins',sans-serif ;
