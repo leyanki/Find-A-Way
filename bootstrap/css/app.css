@@ -1,12 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+body{
+font-family:'Poppins',sans-serif ;
+        
+        width: 100%;
+        color:grey
+    }
+    .border-bottom-grey{
+        border-bottom: 1px solid rgba(255, 255,255, .3);
+    }
+.bg-transparent{
+    background:transparent;
+}
 .rad-sm{
     border-radius: 25px;
 }
-.footer{
-   /* background: red; */
-   background-image: url("images/Rectangle32.png");
+.line-height-md{
+    line-height: 35px;
 }
+/* .footer{
+   /* background: red; */
+   /* background-image: url("images/Rectangle32.png"); */
+} */
 .w-85{
     width: 85%;
+}
+.w-10{
+    width: 10%;
 }
 .trans{
     transform: translateX(-50%);
@@ -14,12 +33,14 @@
 .img-rounded-sm{
     width: 150px;
     height: 150px;
+    border-radius: 50px;
 }
-/* @import url('https://fonts.googleapis.com/css?family=Poppins');
-body{
-    font-family:'Poppins',sans-serif ;
-    color:#063cd1;
-} */
+.img-rounded-xs{
+    width: 100px;
+    height: 100px;
+}
+
+
 /* {
     color:#063cd1; 
 } */
