@@ -1,0 +1,21 @@
+.raduis-sm{
+    border-radius: 25px;
+}
+
+/*****begin of width*****/
+.w-85{
+    width: 85%;
+}
+.w-80{
+    width: 85%;
+}
+.w-10{
+    width: 10%;
+}
+/******end of width*****/
+
+/**** font-weight*******/
+
+.font-weight-important{
+    font-weight: 900 ;
+}

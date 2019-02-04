@@ -2,6 +2,8 @@
 <html>
 <head>
     <meta charset="utf-8" />
+
+        
     <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -35,8 +37,8 @@
          <nav class="navbar navbar-expand-md border-bottom-grey">
             <div class="container"> 
                 <a class="navbar-brand"><img src="images/logo.png" class="w-50"  alt="F-A-W"/></a>
-                <button type="button" class=" navbar-toggler navbar-collapse" data-target="#menu" data-toogle="collapse">
-                    <span class="navbar-toogler-icon"></span>
+                <button class="navbar-toggler" data-target="#menu" data-toggle="collapse">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse justify-content-end" id="menu">
                     <ul class="nav navbar-nav">
@@ -64,7 +66,7 @@
             <div class="row">
                 <div class="col-md-12  pt-4 col-xs-12 text-center">
                     <h1 class="display-5 font-weight-bold p-5 mt-5">UX DESIGNER CARRERS</h1>
-                    <p class="py-5 mb-5 w-75 mx-auto">"Lorem ipsum dolor sit amet consectetur ecto corporis officiis quis voluptatibus, aliquid consequuntur asperiores tempora impedit fugit neque commodi perferendis quos ut! Dolorem."</p>
+                    <p class="py-5 mb-5 w-75 mx-auto ">"Lorem ipsum dolor sit amet consectetur ecto corporis officiis quis voluptatibus, aliquid consequuntur asperiores tempora impedit fugit neque commodi perferendis quos ut! Dolorem."</p>
                 </div>
                 
             </div>
@@ -137,11 +139,11 @@
                 </div>
             </div>
             <div class="row shadow-sm mt-4  ">
-                <div class="col-md-3">
-                    <img src="images/task.jpg" class="w-100"/>
-                </div>
                 <div class="col-md-9">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur eaque deserunt repellendus delectus earum, dolorum neque accusantium dolores odio tempora eum nihil ad error itaque rerum molestiae temporibus commodi tenetur?
+                </div>
+                <div class="col-md-3">
+                    <img src="images/task.jpg" class="w-100"/>
                 </div>
             </div>
             <div class="row shadow-sm mt-4 ">
@@ -166,16 +168,16 @@
         <!--section 3 body-->
         <div class="container  w-85 px-5">
             <div class="row mt-5 p-0">
-                <div class="col-md-3 p-0 text-center col-sm-4 col-xs-2 ">
+                <div class="col-md-3 p text-center  col-sm-4 col-xs-2 ">
                     <img src="images/task.jpg" class=" rounded rounded-circle img-rounded-xs" />
                 </div>
-                <div class="col-md-9 col-sm-8 col-xs-10">
+                <div class="col-md-9 m-2 col-sm-8 col-xs-10">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci laudantium tempora officiis doloribus, aspernatur quod? Veritatis nemo ducimus totam alias, expedita reprehenderit praesentium recusandae cum quas ex omnis aut. Sit.
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus ducimus aperiam quasi omnis eius eveniet incidunt, voluptatem ab possimus, nam error delectus eum vitae excepturi. Iure nisi quia doloremque odio.
                 </div>
             </div>
             <div class="row mt-5 ">
-                    <div class="col-md-9 col-sm-8 col-xs-10 align-self-sm-end">
+                    <div class="col-md-9 m-2 col-sm-8 col-xs-10 align-self-sm-end">
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci laudantium tempora officiis doloribus, aspernatur quod? Veritatis nemo ducimus totam alias, expedita reprehenderit praesentium recusandae cum quas ex omnis aut. Sit.
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus ducimus aperiam quasi omnis eius eveniet incidunt, voluptatem ab possimus, nam error delectus eum vitae excepturi. Iure nisi quia doloremque odio.
                     </div>
@@ -187,7 +189,7 @@
                     <div class="col-md-3 col-sm-4 col-xs-2 text-center">
                         <img src="images/task.jpg" class=" rounded rounded-circle img-rounded-xs" />
                     </div>
-                    <div class="col-md-9 col-sm-8 col-xs-10">
+                    <div class="col-md-9 m-2 col-sm-8 col-xs-10">
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci laudantium tempora officiis doloribus, aspernatur quod? Veritatis nemo ducimus totam alias, expedita reprehenderit praesentium recusandae cum quas ex omnis aut. Sit.
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus ducimus aperiam quasi omnis eius eveniet incidunt, voluptatem ab possimus, nam error delectus eum vitae excepturi. Iure nisi quia doloremque odio.
                     </div>
@@ -313,7 +315,7 @@
 
     <script type="text/javaScript" src="bootstrap/js/jquery.slim.min.js"></script>
     <script type="text/javascript" src="bootstrap/js/popper.min.js"></script>
-    <script type="text/javascript" src="bootstrap/js/bootstrap.slim.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.mim.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
   <script type="text/javascript">
       $(document).ready(function(){
@@ -324,7 +326,30 @@
             slidesToShow: 4,
             slidesToScroll: 4,  
             prevArrow:'<a class="btn"><img src="images/Groupe39.png" class="slick-prev"/></a>',
-            nextArrow:'<a class="btn"><img src="images/Groupe38.png" class="slick-next"/></a>' 
+            nextArrow:'<a class="btn"><img src="images/Groupe38.png" class="slick-next"/></a>',
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]   
         });
       });
   </script>
