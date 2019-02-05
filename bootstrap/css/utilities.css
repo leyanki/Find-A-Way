@@ -1,21 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900');
+html{
+    height: 100%;
+    overflow-x: hidden;
+}
+body{
+    font-family:'Poppins',sans-serif ;
+    overflow-x: hidden;  
+    width: 100%;
+    height: 100%;
+    color:grey
+}
+    .border-bottom-grey{
+        border-bottom: 1px solid rgba(255, 255,255, .3);
+    }
+/** background-color**/
+.bg-transparent{
+    background:transparent;
+}
+/** end background-color**/
+.rad-sm{
+    border-radius: 25px;
+}
+.line-height-md{
+    line-height: 35px;
+}
+
 .raduis-sm{
     border-radius: 25px;
 }
 
 /*****begin of width*****/
-.w-85{
-    width: 85%;
+.w-10{
+    width: 10%;
+}
+.w-60{
+    width: 60%
 }
 .w-80{
     width: 85%;
 }
-.w-10{
-    width: 10%;
+.w-85{
+    width: 85%;
 }
+.w-90{
+    width: 90%
+}
+.w-95{
+    width:95%;
+}
+/***end of width***/
+
+/*** beguin of height***/
+.h-10{
+    height: 10%;
+}
+.h-60{
+    height: 60%
+}
+.h-65{
+    height: 60%
+}
+.h-75{
+    height: 60%
+}
+.h-80{
+    height: 85%;
+}
+.h-85{
+    height: 85%;
+}
+.h-90{
+    height: 90%
+}
+.h-95{
+    height:95%;
+}
+.h_slider{
+    height:10rem;
+}
+
+/*** end od height****/
+
+
 /******end of width*****/
 
 /**** font-weight*******/
 
 .font-weight-important{
     font-weight: 900 ;
+}
+
+.img-rounded-sm{
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+}
+.img-rounded-xs{
+    width: 100px;
+    height: 100px;
+}
+
+/*** beguin of slick button position ***/
+
+.slick-ml{
+    -webkit-transform: translate(-60%, -50%);
+    -ms-transform: translate(-60%, -50%);
+    transform: translate(-60%, -50%);
+}
+.slick-mr{
+    -webkit-transform: translate(60%, -50%);
+    -ms-transform: translate(60%, -50%);
+    transform: translate(60%, -50%);
+}
+.slick-mt{
+    -webkit-transform: translate(0, -60%);
+    -ms-transform: translate(0, -60%);
+    transform: translate(0, -60%); 
+}
+/*** end position of slick button ***/
+
+.smallest{
+    font-size: 10px;
 }
