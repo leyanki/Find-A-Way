@@ -10,6 +10,7 @@
 }
 
 .container-header-title{
+<<<<<<< HEAD
     text-align: center; 
 }
 
@@ -45,4 +46,8 @@
     border:1px solid black;
     
     margin:auto;
+=======
+    text-align: center;
+    margin:0px 5px; 
+>>>>>>> 2f82c252d0af1540e8a615bc4a852d7065e15e96
 }
