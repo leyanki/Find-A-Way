@@ -1,0 +1,76 @@
+
+/* ---------------------------formulaire d'inscription--------------------------- */
+
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* ------------------------css of the right container--------------------------- */
+header{
+    background: url(../maquettes/chris-adamus-30862-unsplash.jpg);
+    background-size: cover;
+}
+.left-container-overlaw, header nav{
+    background-color: rgba(225, 18, 53, 0.77);
+}
+.left-container-image{
+    background:url(../maquettes/chris-adamus-30862-unsplash.jpg);
+    background-size: cover;
+    text-align: center;
+}
+.left-container-overlaw-image{
+    height:10em;
+    width:10em;
+    margin-top: 24%;
+    /* margin-left: 38%; */
+}
+.left-container-overlaw h1{
+    color: white;
+    text-align: center;
+    font-weight:900;
+    font-size:2em;
+    margin-top: -2%;
+}
+.left-container-overlaw h6{
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 0.8em; 
+}
+.main{
+    height: 120% !important;
+}
+
+
+
+
+/*--------------------------css of ours formulaire------------------------------*/
+#formulaire{
+    height: auto;
+    margin: auto;
+    
+}
+input{
+    border: solid rgb(222, 222, 222) 1px !important;
+    margin-top: 5%;
+    padding-left: 2%;
+    font-size: small;
+    margin-left: auto;
+
+}
+/* ce bout de code permet de gerer les effets sur les innputs et es textarea lorsque l'on clique dessus  */
+
+input:focus, textarea:focus{
+    box-shadow: none !important;
+    border:  solid  #f4433657 1px !important;
+}
+textarea{
+    border: solid rgb(222, 222, 222) 1px !important;
+    padding-left:2%;
+    font-size:small;
+    margin-top: 5%;
+    margin-left: auto;
+
+}
