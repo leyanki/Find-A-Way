@@ -121,8 +121,11 @@
 .content {display:block;}
 
 @media screen and (max-width:768px ) {
-    .main-container_sidebar{display: none; transform: translateX(50%);}
+    .main-container_sidebar{display: none;}
     #sidebar_Trigger{display:inline-block;}
-    .show_sidebar{ display:block; top:0%; ; left: 0;transform: translateX(0%);transition: transform .4s ease;}
-    .content {display: none;}
+    .show_sidebar{ display:block; top:0%;  left: 12%;}
+}
+@media screen and (min-width:769px ) { 
+    .content{display: block !important;}
+    /* .show_sidebar{ top:0%; ; left: 0%;transform: translateX(0%);} */
 }
