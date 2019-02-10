@@ -1,12 +1,12 @@
-<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900');
 html{
     height: 100%;
+    width: 100%;
     overflow-x: hidden;
 }
 body{
     font-family:'Poppins',sans-serif ;
-    overflow-x: hidden;  
+    overflow-x:hidden;
     width: 100%;
     height: 100%;
     color:grey
@@ -19,36 +19,35 @@ body{
     background:transparent;
 }
 /** end background-color**/
-=======
-@import url('https://fonts.googleapis.com/css?family=Poppins');
-body{
-font-family:'Poppins',sans-serif ;
-      overflow-x: hidden;  
-        width: 100%;
-        color:grey
-    }
-    .border-bottom-grey{
-        border-bottom: 1px solid rgba(255, 255,255, .3);
-    }
-.bg-transparent{
-    background:transparent;
-}
->>>>>>> 2f82c252d0af1540e8a615bc4a852d7065e15e96
 .rad-sm{
     border-radius: 25px;
 }
 .line-height-md{
     line-height: 35px;
 }
+.line-height-lg{
+    line-height: 51px;
+}
 
 .raduis-sm{
     border-radius: 25px;
 }
 
+.show_sidebar{
+    display:block; 
+    transform: translateX(100%);  
+    transition: transform .4s ease;
+}
+
 /*****begin of width*****/
-<<<<<<< HEAD
 .w-10{
     width: 10%;
+}
+.w-40{
+    width: 40%;
+}
+.w-50{
+    width: 50%;
 }
 .w-60{
     width: 60%
@@ -71,17 +70,23 @@ font-family:'Poppins',sans-serif ;
 .h-10{
     height: 10%;
 }
+.h-40{
+    height: 40%;
+}
+.h-50{
+    height: 50%;
+}
 .h-60{
     height: 60%
 }
 .h-65{
-    height: 60%
+    height: 65%
 }
 .h-75{
-    height: 60%
+    height: 70%
 }
 .h-80{
-    height: 85%;
+    height: 80%;
 }
 .h-85{
     height: 85%;
@@ -95,55 +100,80 @@ font-family:'Poppins',sans-serif ;
 .h_slider{
     height:10rem;
 }
-
 /*** end od height****/
 
 
 /******end of width*****/
-=======
-.w-85{
-    width: 85%;
+
+/******color******/
+.bg-red{
+    background:rgba(225, 18, 53, 0.77); 
 }
-.w-80{
-    width: 85%;
+.border-red{
+    border-color:rgba(225, 18, 53, 0.77) !important; 
 }
-.w-10{
-    width: 10%;
+.btn-red{
+    background:rgba(225, 18, 53,1); 
+    color: white;
+    transition :background .3s  ease;
 }
-/******end of width*****/
+.btn-outline-red{
+    border-color:rgba(225, 18, 53, 0.77); 
+    background:white;
+    color:red !important;
+    transition: background .3s ease,color .3s ease;
+}
+/*******button's animation **********/
+.btn-red:hover{
+    background:rgba(225, 18, 53,.88); 
+    color: white;
+}
+.btn-outline-red:hover{
+    border-color:rgba(225, 18, 53, 0.77); 
+    background:rgba(225, 18, 53, 1); ;
+    color:white !important;
+}
+/******end of button*****/
+.font-weight-low{
+    font-weight: 500;
+}
+ .li_customize{
+    list-style: none;
+}
+/*
+.li_customize::before{
+    content:"\2022";
+    color:red;
+    display: inline-block;
+    width:;
+    margin-left:-1em;
+} */
 
-
-/* height */
-.h-91 {
-    height: 91%;
+.modal-dialog-lg {
+    max-width: 50% !important;
+    margin: 2rem auto !important;
 }
 
-/* end of height */
-
->>>>>>> 2f82c252d0af1540e8a615bc4a852d7065e15e96
-
+/********end of button***
 /**** font-weight*******/
 
 .font-weight-important{
     font-weight: 900 ;
 }
-
-<<<<<<< HEAD
-=======
-.bold {
-    font-weight: bold;
-}
-
->>>>>>> 2f82c252d0af1540e8a615bc4a852d7065e15e96
 .img-rounded-sm{
     width: 150px;
     height: 150px;
-    border-radius: 50px;
+    border-radius:50px;
+}
+
+.img-rounded{ 
+    width: 70px;
+    height: 70px;
+    border-radius:50px;
 }
 .img-rounded-xs{
     width: 100px;
     height: 100px;
-<<<<<<< HEAD
 }
 
 /*** beguin of slick button position ***/
@@ -167,6 +197,4 @@ font-family:'Poppins',sans-serif ;
 
 .smallest{
     font-size: 10px;
-=======
->>>>>>> 2f82c252d0af1540e8a615bc4a852d7065e15e96
 }

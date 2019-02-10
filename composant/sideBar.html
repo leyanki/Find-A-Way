@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html class="h-100">
+<head>
+    <meta charset="utf-8" />
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="../slick/slick-theme.css ">  
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../bootstrap/css/app.css"/>
+    <link rel="stylesheet" href="../bootstrap/css/utilities.css"/>
+    <link rel="stylesheet" href="../bootstrap/css/core.css">
+    <style>
+        
+        .sideBar{
+            width: 100%;
+            background:red;
+            position:fixed;
+            top: 0; 
+            z-index: 1;
+            left: 0;
+            overflow-x: hidden;
+        }
+        .show{
+            display:block; 
+            transform: translateX(100%);  
+            transition: transform .4s ease;
+        }
+      
+
+        .sidebar_items{
+            text-align: center;
+            padding: 3%;
+        }
+        @media screen and (max-width: 623px) {
+            .sideBar{ display:none; transform: translateX(-100%);}
+            .sideBar_btn{display:inline-block;}
+        }
+    </style>
+    <body class="h-100">
+       <a class="btn btn-success sideBar_btn" href="#">afficher</a>
+        <nav class="sideBar h-100" id="sideBar">
+           <div class="sideBar_containt">
+                <ul class="nav flex-column"> 
+                    <li class="nav-item sidebar_items">
+                        <a class="nav-link">linker.co</a>
+                    </li>
+                    <li class="nav-item sidebar_items border">
+                        <a class="nav-link">find a way</a>
+                    </li>
+                </ul>  
+           </div>   
+        </nav>
+        <script  src="../bootstrap/js/jquery.slim.min.js"></script>
+        <script type="text/javascript" src="../bootstrap/js/popper.min.js"></script>
+        <script type="text/javascript" src="../bootstrap/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="../slick/slick.min.js"></script>
+        <script src="../bootstrap/js/slickCarousel.js"> </script>
+        <script>
+            /*var  sidebarEvent=function(){
+                var btn= document.querySelectorAll(".sideBar_btn");
+                var sidebar=document.querySelector("#sideBar");
+               for(var i=0;i<btn.length; i++){
+                    btn[i].addEventListener("click",function(e){
+                        console.log(this);
+                        sidebar.classList.toggle("show");
+                    });
+               }
+            }
+            sidebarEvent()*/
+        </script>
+    </body>
+</html>

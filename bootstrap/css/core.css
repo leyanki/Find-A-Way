@@ -10,7 +10,6 @@
 }
 
 .container-header-title{
-<<<<<<< HEAD
     text-align: center; 
 }
 
@@ -28,26 +27,102 @@
     background-size:cover;
     background-repeat:no-repeat;
 }
+.overlay_user{
+    background:url(../../images/computer.jpg); 
+    background-size:cover;
+    background-repeat:no-repeat;
+}
 
 .overlay_color{
     background:rgba(225, 18, 53, 0.77); 
+} 
+.overlay_color--important{
+    background:rgba(225, 18, 53, 0.66); 
 } 
 .overlay--dark{
     background:rgba(0,0,0, .23);
 }
 
 .overlay_containt{
-    width: 100%;
     height: 100%;
     margin:auto; 
     border:1px solid black;
     text-align:center;
-    margin-top:40%;
+    margin-top:40%; 
     border:1px solid black;
     
     margin:auto;
-=======
+}
+
+/*** dashboard*****/
+
+.main-container{
+    position: relative;
+}
+.main-container_sidebar{
+    position:sticky;
+    border:1px solid black;
+    z-index: 1;
+    padding:4% 0%;
+    top:0;
+}
+
+/***element*****/
+.container_item_img{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.card_item_img{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+
+/*****side bar*****/
+.sideBar{
+    width: 100%;
+    background:white;
+    overflow-x: hidden;
+    /* border:1px solid black; */
+}
+.sidebar_items{
     text-align: center;
-    margin:0px 5px; 
->>>>>>> 2f82c252d0af1540e8a615bc4a852d7065e15e96
+    overflow-x: hidden;
+    transition: background .3s ease;
+}
+.sidebar_items a{
+    color:grey;
+    font-weight:700 !important;
+    transition: background .3s ease;
+    display: inline-block;
+    padding: 1rem;
+    width: 100%;
+}
+.sidebar_items a:hover{
+    color:white;
+    background:rgba(225, 18, 53, 1);
+    transition: background .3s ease,color .3s ease;
+}
+.text-red{
+    color:rgba(225, 18, 53, 0.77);
+}
+.item_active{
+    background:rgba(225, 18, 53, 1);
+    color:white;
+}
+.item_active>a{
+    color:white;
+}
+
+#sidebar_Trigger{display:none;}
+.content {display:block;}
+
+@media screen and (max-width:768px ) {
+    .main-container_sidebar{display: none; transform: translateX(50%);}
+    #sidebar_Trigger{display:inline-block;}
+    .show_sidebar{ display:block; top:0%; ; left: 0;transform: translateX(0%);transition: transform .4s ease;}
+    .content {display: none;}
 }
