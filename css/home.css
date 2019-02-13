@@ -57,7 +57,7 @@ html,body{
 
 }
 .button_white{
-  color: rgba(225, 18, 53)!important;  
+  color: rgba(225, 18, 53) !important;  
   border: solid rgba(225, 18, 53) 1px !important;
   background-color: white !important;
   
@@ -116,13 +116,13 @@ html,body{
     padding-left: 5%;
 }
 .presentation_section_text h1{
-    color:rgba(225, 18, 53); 
+    color:rgba(225, 18, 53) !important; 
     font-size: 1em;
     padding-top: 28%;
     font-weight: bold;
 }
 .presentation_section_text h2{
-    color:rgba(225, 18, 53);
+    color:rgba(225, 18, 53) !important;
     font-weight: 800;
     font-size: 1.3em; 
     padding-top: 3.5%;
@@ -140,13 +140,13 @@ html,body{
     margin-top:-10em;
 }
 .presentation_section_text_mobile h1{
-    color:rgba(225, 18, 53); 
+    color:rgba(225, 18, 53) !important; 
     font-size: 1em;
     padding-top: 28%;
     font-weight: bold;
 }
 .presentation_section_text_mobile h2{
-    color:rgba(225, 18, 53);
+    color:rgba(225, 18, 53) !important;
     font-weight: 800;
     font-size: 1.3em; 
     padding-top: 3.5%;
