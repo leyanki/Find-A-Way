@@ -1,0 +1,426 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0 auto;
+    font-family: poppins;
+}
+/* -------------------------------body page----------------------------------------- */
+
+/* -------------------------------categories blocks--------------------------------- */
+.header_tilte{
+    font-size: 40px;
+    font-weight: 900 !important;
+}
+.header_search_buttom, .header_search_icons{
+    position: relative;
+    top: 0.3em;
+}
+.header_search:focus{
+   box-shadow: none;
+}
+.categories_panel small{  
+ font-weight: 600;
+}
+.categories_panel {
+    height: 5em !important;
+    overflow: hidden;
+}
+
+
+
+.categorie_bock_left{
+    padding: 1% 0px 1% 5%;
+    border-right: solid #dedede 1px;
+}
+.categorie_bock_center{
+    padding: 1.5% 0px 1% 1%;
+    border-bottom: solid #dedede 1px;
+    height: 5em;
+}
+.categorie_bock_right{
+    padding:1%;
+    border-bottom: solid #dedede 1px;
+    box-shadow:-6px -4px 10px rgba(0, 0, 0, 0.16); 
+
+}
+.button_red,.button_white{
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 1em;
+    font-weight:bold !important;
+    display: inline-block;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+
+
+}
+.button_white{
+  color: rgba(225, 18, 53)!important;  
+  border: solid rgba(225, 18, 53) 1px !important;
+  background-color: white !important;
+  
+} 
+
+.categorie_bock_center .btn {
+    margin:0 0 1em 1.5em !important;
+  
+}
+
+/* ----------------------------success stories part--------------------------- */
+
+.success_stories{
+    border:  solid #efe6e6 1px;
+    font-size: 0.9em;
+    padding-bottom: 0.2em;
+}
+.success_stories .active {
+    border-bottom: 2px solid #e11235;
+    font-weight: bold;
+    padding-bottom: 0.2em;
+}
+.card-img-top{
+    background: url("../maquettes/51677956-16a8-4dae-aecd-b272860d9248.jpeg");
+    background-size: cover;
+    height: 17.7em;;
+    left: 0.94em;
+}
+.card-img-top-overlay{
+    background-color: #020202ad !important;
+}
+.card-body{
+    background-color: #e11235 !important;
+}
+.card-body small{
+    text-align: center !important;
+    font-weight: bold;
+    padding-bottom: 1.4em;
+    color: white;
+    font-size: 1em !important;
+}
+.card-body p{
+    text-align: center;
+    color: white;
+    font-size:0.9em;
+}
+
+/* ----------------------------presentation section--------------------------- */
+.presentation_section{
+    background-color:#f3f2f2;
+    padding-top:2%;
+    padding-bottom:2%;
+    border: solid #efe6e6 1px;
+}
+.presentation_section_text{
+    padding-left: 5%;
+}
+.presentation_section_text h1{
+    color:rgba(225, 18, 53); 
+    font-size: 1em;
+    padding-top: 28%;
+    font-weight: bold;
+}
+.presentation_section_text h2{
+    color:rgba(225, 18, 53);
+    font-weight: 800;
+    font-size: 1.3em; 
+    padding-top: 3.5%;
+}
+.presentation_section_text p{
+    color: #707070;
+    font-size: 1em;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    line-height: 2em;
+}
+/* -----------------presentation section pour tablette et mobile------------------ */
+.presentation_section_text_mobile{
+    padding-left: 5%;
+    margin-top:-10em;
+}
+.presentation_section_text_mobile h1{
+    color:rgba(225, 18, 53); 
+    font-size: 1em;
+    padding-top: 28%;
+    font-weight: bold;
+}
+.presentation_section_text_mobile h2{
+    color:rgba(225, 18, 53);
+    font-weight: 800;
+    font-size: 1.3em; 
+    padding-top: 3.5%;
+}
+.presentation_section_text_mobile p{
+    color: #707070;
+    font-size: 1em;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    line-height: 2em;
+}
+
+/* ---------------------------contact & help----------------------- */
+.presentation_section_contact{
+    background-color:white;
+    overflow: hidden;
+}
+.presentation_section_contact_image{
+    left:2em;
+}
+
+/* --------------------------selection success stories--------------- */
+.success_stories_image{
+    background: url("../maquettes/Groupe 188.png");
+    background-size: cover;
+    background-position: top center;
+}
+.success_stories_text h1{
+    color: white;
+    font-weight: 800;
+    font-size: 1.3em;
+    padding-left: 3%;
+}
+.success_stories_text h2{
+    color: white;
+    font-size: 0.9em;
+    padding-left: 3%;
+    margin-top: 2%;
+}
+/*.success_storie_circle_image_left{
+    margin-top:4%;
+    height: 4em;
+    width: 4em;
+}
+.success_storie_circle_image_right{
+    margin-top: 3%;
+    height: 4em;
+    width: 4em;
+    margin-left: 90%;
+} */
+
+/* --------------------------------temoignage---------------------------------------- */
+.temoignage_image_right{
+    left: 0.95em;
+}
+.temoignage_image_right_circle_of_rene{
+    width: 7em;
+    height: 7em;
+    border-radius: 50em;
+    margin-top: -8em;
+    border: solid #e11235 7px;
+}
+.presentation_of_temoignage h1{
+    color: #e11235;
+    font-weight: 900;
+    font-size: 1.5em;
+}
+.presentation_of_temoignage h5{
+    color: #e11235;
+    margin-bottom: 1.5em;
+    font-weight: 900;
+}
+.presentation_of_temoignage p{
+    color: #e11235;
+    font-size:1em;
+    line-height:2em;
+    
+}
+.presentation_of_temoignage p{
+    background: url("./../maquettes/quotes.svg");
+    background-size: 64px;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+.testimony-items>div{
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    border-radius: 0 3em 3em 0;
+    margin-top: 3em;
+    padding: 0.4em 0px 0.4em 0.8em !important;
+    opacity: 0.5;
+}
+.testimony-items>div.active {
+    box-shadow: 0px 3px 49px rgba(0, 0, 0, 0.16);
+    opacity: 1;
+}
+
+.testimony-items>div.active h5{
+    color: #e11235;
+}
+.testimony-items>div:hover {
+    opacity: 1;
+    transition: 0.4s all;
+    cursor: pointer;
+}
+
+.testimony-items>div.active .testimony_item_image_panel {
+    margin-left: -0.6em !important  ;
+}
+
+.temoignage_image_left_circle_of_rene{
+    width: 4em;
+    height: 4em;
+    border-radius: 50em;
+    margin-top: 6.2%;
+   
+}
+.testimony-items h5{
+    color: #707070;
+    font-size: 0.9em;
+    font-weight: 600;
+}
+.testimony-items div.text{
+    color: #707070;
+    font-size: 0.6em;
+    max-height: 4.5em;
+    overflow: hidden;
+    line-height: 1.5em !important;
+}
+
+.testimony_item_image_panel {
+    margin-top: 1%;
+}
+
+/* --------------------------------footer-------------------------------- */
+.footer{
+   left:0.9em;
+   background: url("../maquettes/photo5886489508415909669.jpg");
+   background-size: cover;
+   background-position: center top;
+   padding-top: 16% !important;
+}
+/* .footer>div{
+    margin-bottom: 5em;
+} */
+.footer h5{
+    color: white;
+    font-weight: bold;
+    font-size: 1.35em;
+}
+.footer p{
+    color: white;
+    font-size: 1em;
+    font-weight: 500;
+}
+.section_ulife h1{
+    color: #707070;
+    font-size:1.2em;
+    font-weight: bold;
+}
+.section_ulife h2{
+    color: #707070;
+    font-size:1em;
+}
+
+
+.overlay{
+    background:url(../maquettes/chris-adamus-30862-unsplash.jpg); 
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.overlay_color{
+    background:rgba(225, 18, 53, 0.77); 
+} 
+
+
+.overlay_color_dark{
+    background:rgba(0, 0, 0, 0.603);
+    color: white;
+    font-size: 0.7em;
+    padding: 8% 20% !important;
+    font-weight: 700 !important;
+}
+
+.success_storie_card {
+    border: none !important;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.success_storie_card:nth-child(2n) {
+    margin-top: 2% !important;
+}
+
+.success_storie_cards {
+    padding-bottom: 7%;
+}
+
+.overlay_containt{
+    width: 100%;
+    height: 100%;
+    margin:auto; 
+    text-align:center;
+    margin-top:40%;    
+    margin:0px 5px;
+    text-align: center;
+}
+
+.px-i{
+    padding-left: 1.5em;
+    padding-right: 2em;
+}
+
+.u_cards{
+    padding: 0% 6%;
+}
+
+/* -------------------------------media query---------------------------- */
+@media screen and (max-width:576px){
+
+    
+    /* -----------------------part temoignage---------------------------- */
+    .temoignage_text{
+        text-align: center !important;
+        left: 2em !important;
+    }
+    /* ---------------------responsive footer---------------------------- */
+    .footer_contact_text{
+        text-align: center !important;
+    }
+    .footer{
+        background-position: bottom right;
+        padding-top: 22% !important; 
+
+    }
+}
+@media screen and (max-width:991px){
+    .testimony-items , .presentation_section_text{
+        display: none; 
+    }
+    .presentation_section{
+        padding-bottom: 3em;
+    }
+
+    /* ------------------hearder--------------- */
+    .header_block_mobile.p-5{
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+    .header_tilte_mobile{
+        font-size: 20px !important;
+        font-weight: 900 !important;
+        margin: none !important;
+        padding: none !important;
+        margin-top: 5em;
+    }
+    .header_search_buttom{
+        font-size: 5px !important;
+    }
+
+    .categorie_bock_right{
+        display: none !important; 
+    }
+    .categories_panel{
+        height:9em !important;
+        border:0px !important;
+        text-align: center !important;
+
+    }
+    .button_btn_mobile{
+        border: 0px !important;
+        background:none;
+        color: #e11235 !important;
+    }
+
+}

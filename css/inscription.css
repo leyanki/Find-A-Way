@@ -20,6 +20,9 @@ header{
     background-size: cover;
     text-align: center;
 }
+.container-fluid{
+    overflow-x: hidden;
+}
 .left-container-overlaw-image{
     height:10em;
     width:10em;
