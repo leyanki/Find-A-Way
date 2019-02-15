@@ -40,8 +40,13 @@
     ##Screen = B/w 768px to 1024px
   */
   
-  @media (min-width: 993px) and (max-width: 1024px) {
-    
+  @media (min-width: 768px) and (max-width: 992px) {
+    .faw-d-none{
+      display: none;
+    }
+    .faw-d-block{
+      display: block;
+    }
 
     
   }
@@ -58,9 +63,10 @@
   */
   
   @media (min-width: 481px) and (max-width: 992px) {
-      .faw-pr-sm-5{
-        margin-right: auto;
+    .faw-pr-sm-5{
+      margin-right: auto;
     }
+    
     .faw-w-sm-75{
         width: 100% !important;
     }
