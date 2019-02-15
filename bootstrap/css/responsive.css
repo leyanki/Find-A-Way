@@ -1,0 +1,104 @@
+/*
+* FAW Template Responsive css
+
+
+
+
+/*
+    small-mobile: from to 360px
+    mobile: up to 768px
+    tablet: from 769px
+    desktop: from 1024px
+    widescreen: from 1216px
+    fullhd: from 1408px
+*/
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+   
+    
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  @media (min-width:993px) and (max-width: 1280px) {
+    .faw-w-sm-75{
+      width: 75%;
+    }   
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 993px) and (max-width: 1024px) {
+    
+
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+ 
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 992px) {
+      .faw-pr-sm-5{
+        margin-right: auto;
+    }
+    .faw-w-sm-75{
+        width: 100% !important;
+    }
+    .container-p,.container-h6{width: 100%; text-align: justify;} 
+    .faw-m-sm-3{
+        margin: auto;   
+    }
+    .faw-p-sm-4{
+        margin:auto;
+    }  
+    .faw-pt-sm-5{
+      padding-top:3rem !important; 
+    }
+
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .faw-pr-sm-5{
+      margin-right: 3rem !important;
+    }
+    .faw-w-sm-75{
+        width: 100% !important;
+    }
+    .container-p,.container-h6{width: 100%; text-align: justify;} 
+    .faw-m-sm-3{
+        margin: 1rem !important;   
+    }
+    .faw-p-sm-4{
+        margin: 1.5rem !important;
+    }  
+    .faw-pt-sm-5{
+      padding-top:3rem !important; 
+    }
+  
+    
+  }
