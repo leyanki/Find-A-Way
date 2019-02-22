@@ -102,7 +102,9 @@
     padding-left: .5rem !important;
     padding-right: .5rem !important;
   }
-
+  .faw-p-xs-5-2{
+    padding:.5rem !important;
+  }
   .faw-px-xs-5-3{
     padding-left: 1rem !important;
     padding-right: 1rem !important;
@@ -115,5 +117,10 @@
   .faw-m-xs-5-2{
     margin: .5rem !important;
   }
+
+  .faw-xs-w-75{
+    width:100% !important;
+  }
+
 
 }
