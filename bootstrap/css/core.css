@@ -124,6 +124,9 @@
     transition: background .3s ease,color .3s ease;
 }
 
+.sideBar_containt li a{
+    font-size:.8rem !important;
+}
 #sidebar_Trigger{display:none;}
 .content {display:block;}
 

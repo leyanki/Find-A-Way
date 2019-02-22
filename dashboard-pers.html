@@ -10,7 +10,8 @@
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
         <link rel="stylesheet" href="bootstrap/css/app.css"/>
         <link rel="stylesheet" href="bootstrap/css/utilities.css"/>
-        <link rel="stylesheet" href="bootstrap/css/core.css">
+        <link rel="stylesheet" href="bootstrap/css/core.css"/>
+        <link rel="stylesheet" href="bootstrap/css/layout.css"/>
     
     <body class="h-100">
         <!-- Start of overlay menu-->
@@ -66,7 +67,7 @@
         <!-- end  of overlay menu-->
 
         <!-- Start of the sticky menu -->
-        <div class="submenu sticky-top container-fluid pl-0 border-bottom bg-white text-white">
+        <div class="submenu sticky-top container-fluid px-0 border-bottom bg-white text-white">
             <div class="row">
                 <div class="col-md-2 text-center py-3 text-danger">
                         <a class="btn btn-info " id="sidebar_Trigger" href="#">open side</a>
@@ -74,7 +75,7 @@
                 <div class="col-md-10 p-0 border-md-left text-danger">
                     <ul class="col-12  nav m-0 border-left">
                         <div class="container w-85">
-                            <label class="col-5 p-1 py-4 m-0 font-weight-bold">Informations personelles</label>
+                            <label class="col-12 p-1 py-4 m-0 font-weight-bold">Informations personelles</label>
                         </div>
                        
                     </ul>
@@ -85,10 +86,11 @@
             </div>
         </div>
         <!-- end of the sticky menu -->
-        <div class="main-container container-fluid pl-0 h-70">
+        <!-- main container-->
+        <div class="main-container container-fluid px-0 h-70">
             <div class="main-container_wrapper  h-100 row">
                 <!-- this is the beguining of the side bar-->
-                <div class="col-md-2  h-100 main-container_sidebar" id="sidebar">
+                <div class="col-lg-2  h-100 main-container_sidebar" id="sidebar">
                     <div class="sticky-top ">
                         <nav class="sideBar">
                             <div class="sideBar_containt ">
@@ -118,14 +120,14 @@
                     
                 </div>
                 <!--end of sidebar-->
-                <div class="content col-md-10 px-5  py-3 border-left">
-                    <div class="container  border w-90 mt-4  px-5 py-0 mx-auto">
+                <div class="content col-lg-10 faw-col-lg-10 px-5 faw-px-sm-0 py-3 border-left">
+                    <div class="container-fluid  border faw-w-sm-90 mt-4  px-5 faw-px-sm-0 faw-m-xs-5-3 py-0 mx-auto">
                         <!-- Information about someone -->
-                        <div class="row m-5 mb-5 p-2 ">
-                            <div class="col-md-4  p-0 pr-4  col-sm-12 col-xs-12">
+                        <div class="row m-5 faw-m-xs-5-2 mb-5 p-2 ">
+                            <div class="col-md-4  p-0 pr-4 faw-pr-sm-0 col-sm-12 col-xs-12">
                                 <img src="images/computer.jpg" class="w-100 h-100"/>
                             </div>
-                            <div class="col-md-8 size-1 col-sm-12 col-xs-12 px-4 line-height-lg">
+                            <div class="col-md-8 size-1 col-sm-12 col-xs-12 size_8 px-4 faw-px-sm-0 faw-pt-sm-3 line-height-lg">
                                 <li class="list-style-none">
                                     <span class="font-weight-bold">Noms et Prenoms: </span>Fampou Killer
                                 </li>
@@ -142,21 +144,21 @@
                             </div>
                         </div>
                         <!--end of  Information about someone -->
-                        <div class=" m-5 p-2 size-1  ">
+                        <div class=" m-5 faw-m-xs-5-2 p-2 size-1  ">
                             <h5 class="text-red-1 font-weight-bold size-1_1">Mes objectifs</h5>
-                            <p class="mt-4">
+                            <p class="mt-4 size_8">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, corrupti in iusto, error placeat accusantium dignissimos debitis, dolores ut et doloribus aperiam minus provident. Voluptas error consequatur laudantium adipisci doloremque?
                             </p>
                         </div>
-                        <div class=" m-5 p-2 size-1 ">
+                        <div class=" m-5 faw-m-xs-5-2 p-2 size-1 ">
                             <h5 class="text-red-1 font-weight-bold size-1_1">Mes ambitions</h5>
-                            <p class="mt-4">
+                            <p class="mt-4 size_8">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, corrupti in iusto, error placeat accusantium dignissimos debitis, dolores ut et doloribus aperiam minus provident. Voluptas error consequatur laudantium adipisci doloremque?
                             </p>
                         </div>
-                        <div class=" m-5 p-2 size-1 ">
+                        <div class=" m-5 faw-m-xs-5-2 p-2 size-1 ">
                             <h5 class="text-red-1 font-weight-bold size-1_1">Mes visions</h5>
-                            <p class="mt-4">
+                            <p class="mt-4 size_8">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, corrupti in iusto, error placeat accusantium dignissimos debitis, dolores ut et doloribus aperiam minus provident. Voluptas error consequatur laudantium adipisci doloremque?
                             </p>
                         </div>
@@ -165,7 +167,7 @@
                 </div>
             </div>
         </div>
-        
+     <!--end main container-->   
         
 
         <script type="text/javaScript" src="bootstrap/js/jquery.slim.min.js"></script>

@@ -14,7 +14,15 @@ body{
 }
 /**** end principal structure***/
 
+/**** layout *****/
 
+.faw-col-lg-10 {
+    -ms-flex: 0 0 83,33333333%;
+    flex: 0 0 83,33333333%;
+    max-width: 83,33333333%;
+}
+
+/***** end layout *****/
 
 
 /**** width style ****/
@@ -46,6 +54,7 @@ body{
 .w-95{
     width:95%;
 }
+
 
 /**** end width style****/
 
@@ -114,13 +123,19 @@ body{
 .size-1_1{
     font-size:1.1rem !important;
 }
+.size_8{
+    font-size: .8rem !important;
+}
 .size_7{
-    font-size: .7rem;
+    font-size: .7rem !important;
 }
 .size-1>div{
     font-size: .9rem !important;
 }
 
+.size_8 *{
+    font-size: .8rem !important;
+}
 .smallest{
     font-size: 10px;
 }
@@ -140,13 +155,20 @@ body{
     border-bottom: 1px solid rgba(255, 255,255, .3);
 }
 
+.faw-shadow-sm{
+    box-shadow: 1px 4px 3px rgba(1, 0, 0, .1), -1px -.6px 3px rgba(0, 0, 0, .1);
+}
+
 /**** end border style ****/
 
 
 /**** line-height style ****/
+.line-height-sm{
+    line-height: 35px;
+}
 
 .line-height-md{
-    line-height: 35px;
+    line-height: 30px;
 }
 .line-height-lg{
     line-height: 51px;
@@ -258,6 +280,16 @@ body{
 /**** end font-weight style ****/
 
 
+
+/****  padding style ****/
+
+.faw-px-xs-5-2{
+    padding-left: 3rem ;
+    padding-right: 3rem ;
+  }
+  
+
+/**** end padding style ****:
 
 /**** rounded (img,btn, block) style ****/
 .img-rounded-sm{

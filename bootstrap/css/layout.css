@@ -8,9 +8,13 @@
       .faw-w-sm-85{
         width: 85% !important;
       }
+      .faw-w-sm-80{
+        width: 80% !important;
+      }
       .faw-w-sm-75{
         width: 75% !important;
       }
+      
 }
 
 
@@ -28,16 +32,31 @@
       .faw-w-sm-85{
         width: 100% !important;
       }
+      .faw-w-sm-80{
+        width: 100% !important;
+      }
       .faw-w-sm-75{
         width: 100% !important;
       }
 }
 
 @media (min-width:992px) and (max-width:1024px){
-  .faw-col-lg-12{
-    width: 100% !important;
-    margin: auto !important;
+    .faw-col-lg-10 {
+      -ms-flex: 0 0 100% !important;
+      flex: 0 0 100% !important;
+      max-width: 100% !important;
   }
+}
+
+@media screen and (max-width:991px){
+  .faw-row{
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-wrap: wrap !important;
+    flex-wrap: wrap !important;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+  } 
 }
 
 @media screen and (max-width:767px){
@@ -50,160 +69,51 @@
     .faw-w-sm-85{
        width: 100% !important;
     }
+    .faw-w-sm-80{
+      width: 100% !important;
+    }
     .faw-w-sm-75{
        width: 100% !important;
     }
+    .faw-px-sm-0{
+      padding-left: 0rem !important;
+      padding-right: 0rem !important;
+    } 
+    .faw-pr-sm-0{
+      padding-left: 0rem !important;
+      padding-right: 0rem !important;
+    }
+
+  }
+  @media (min-width:220px) and (max-width:767px){
+    .faw-text-sm-center{
+      text-align: center !important;
+    }
+    .faw-pl-4{
+      padding-left: 0rem !important; 
+    }
+    .faw-pt-sm-3{
+      padding-top: 1rem !important;
+    }
+  }
+
+@media screen and (max-width:576px){
+  .faw-px-xs-5-2{
+    padding-left: .5rem !important;
+    padding-right: .5rem !important;
+  }
+
+  .faw-px-xs-5-3{
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  .faw-mx-xs-5-2{
+    margin-left: .5rem !important;
+    margin-right: .5rem !important;
+  }
+
+  .faw-m-xs-5-2{
+    margin: .5rem !important;
+  }
+
 }
-
-
-
-
-
-/*
-* FAW Template Responsive css
-
-
-
-
-/*
-small-mobile: from to 360px
-mobile: up to 768px
-tablet: from 769px
-desktop: from 1024px
-widescreen: from 1216px
-fullhd: from 1408px
-*/
-
-
-/* 
-##Device = Desktops
-##Screen = 1281px to higher resolution desktops
-*/
-
-@media (min-width: 1281px) {
-    .faw-w-sm-75{
-      width: 75%;
-    }   
-    .faw-w-sm-85{
-      width:85%;
-    }
-    .faw-w-sm-95{
-      width:95%;
-    }
-  }
-  
-  /* 
-  ##Device = Laptops, Desktops
-  ##Screen = B/w 1025px to 1280px
-  */
-  @media (min-width:993px) and (max-width: 1280px) {
-    .faw-w-sm-75{
-      width: 75%;
-    }   
-    .faw-w-sm-85{
-      width:85%;
-    }
-    .faw-w-sm-95{
-      width:95%;
-    }
-  }
-  
-  /* 
-  ##Device = Tablets, Ipads (portrait)
-  ##Screen = B/w 768px to 1024px
-  */
-  
-  @media (min-width: 768px) and (max-width: 992px) {
-    .h-75{
-      height: 100%;
-    }  
-  }
-  
-  @media (min-width: 768px) and (orientation: landscape) {
-    .faw-d-none{
-      display: none;
-    }
-    .faw-d-block{
-      display: block;
-    }
-    
-  }
-    
-    /* 
-    ##Device = Tablets, Ipads (landscape)
-    ##Screen = B/w 768px to 1024px
-    */
-    
-    
-    /* 
-    ##Device = Low Resolution Tablets, Mobiles (Landscape)
-    ##Screen = B/w 481px to 767px
-    */
-    
-    @media (min-width: 481px) and (max-width: 992px) {
-      .faw-pr-sm-5{
-        margin-right: auto;
-      }
-      .faw-w-sm-95{
-        width: 100% !important;
-      }
-      .faw-w-sm-85{
-        width: 100% !important;
-      }
-      .faw-w-sm-75{
-        width: 100% !important;
-      }
-      .container-p,.container-h6{width: 100%; text-align: justify;} 
-      .faw-m-sm-3{
-        margin: auto;   
-      }
-      .faw-p-sm-4{
-        margin:auto;
-      }  
-      .faw-pt-sm-5{
-        padding-top:3rem !important; 
-      }
-      .faw-pt-sm-3{
-        padding-top:1.5rem !important; 
-      }
-      
-    }
-    
-    /* 
-    ##Device = Most of th e Smartphones Mobiles (Portrait)
-    ##Screen = B/w 320px to 479px
-    */
-    
-    @media (min-width: 320px) and (max-width: 480px) {
-      .faw-pr-sm-5{
-        margin-right: 3rem !important;
-      }
-      .faw-w-sm-75{
-        width: 100% !important;
-      }
-      .faw-w-sm-95{
-        width: 100% !important;
-      }
-      .faw-w-sm-85{
-        width: 100% !important;
-      }
-      .container-p,.container-h6{width: 100%; text-align: justify;} 
-      .faw-m-sm-3{
-        margin: 1rem !important;   
-      }
-      .faw-p-sm-4{
-        margin: 1.5rem !important;
-      }  
-      .faw-pt-sm-5{
-        padding-top:3rem !important; 
-      }
-      .faw-pt-sm-3{
-        padding-top:1.5rem !important; 
-      }
-  
-      .faw-px-sm-0{
-        padding-left: 0px;
-        padding-right: 0px;
-      }
-      
-    }
