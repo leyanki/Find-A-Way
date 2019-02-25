@@ -12,324 +12,73 @@
         <link rel="stylesheet" href="bootstrap/css/utilities.css"/>
         <link rel="stylesheet" href="bootstrap/css/core.css">
         <link rel="stylesheet" href="bootstrap/css/layout.css">
-    <body class="h-100">
-        <!-- Start of overlay menu-->
-        <div class="overlay_user text-light h-80">
-            <div class="overlay_color--important h-100">
-                <div class="overlay_containt">
-                    <nav class="navbar navbar-expand-md  navbar-light border-bottom-grey">
-                        <div class="container"> 
-                            <a class="navbar-brand"><img src="images/logo.png" class="w-50" alt="F-A-W"/></a>
-                            <button type="button" class="navbar-toggler"  data-toggle="collapse" data-target="#menu">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse  justify-content-end" id="menu">
-                                <ul class="nav navbar-nav">
-                                    <li class="nav-item px-2 text-center">
-                                        <a class="nav-link font-weight-bold text-light" href="stories.html">Stories</a>
-                                    </li>
-                                    <li class="nav-item px-2 text-center">
-                                        <a class="nav-link font-weight-bold text-light" href="ways.html">Ways</a>
-                                    </li>
-                                    <li class="nav-item px-2 text-center">
-                                        <a class="nav-link font-weight-bold text-light" href="categories.html">Categories</a>
-                                    </li>
-                                    <li class="nav-item px-2 text-center">
-                                        <a class="nav-link font-weight-bold text-light" href="dashboard-about.html">About</a>
-                                    </li>
-                                    <li class="nav-item px-2 text-center">
-                                            <a class="btn btn-light font-weight-bold text-danger px-4 rad-sm" href="#">Login</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </nav>
-                        
-                    
-                    <div class="container">
-                        <div class="row">
-                            
-                            <div class="col-md-6 offset-md-3 text-center">
-                                <div class="text-center p-5 mt-3 "><a href="#"><img src="images/computer.jpg" class="img-rounded border border-white"></a></div>
-                                <h5 class="font-weight-important size-3">Mr Fampou Jean rene</h5>
-                                <div class="pt-4">
-                                    <p class="pb-5 small size-1">Regarder la video presentation</p>
-                                </div>-
-                            </div>
-                        
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <style>
+            .faw-card{
+                position: relative;
+                border-radius:5% 5% 0% 0% !important;    
+
+            }
+
+            .faw-card *{
+                position:absolute;
+            }
+            .faw-card-overlay-color{
+                background: red;
+                opacity: .4;
+                width: 100%;
+                height: 100%;
+                z-index:2;
+                border-radius:5% 5% 0% 0%!important;   
+                top:0;
+                left:0;
+            }
+            .faw-card-overlay-img{
+                width: 100%;
+                border-radius:5% 5% 0% 0%!important;  
+                height: 100%;
+                top:0;
+                left:0;
+                z-index:1;
+            }
+            .faw-card-overlay-text{
+                width: 100%;
+                top:35%;
+                text-align: center;
+                font-weight: 500 !important;
+                font-size:0.85rem;
+                transform:translateY(-50%);
+                z-index:3;
+                padding: 2px 5px;
+                color:white;
+            }
             
-        </div>
-         <!-- end  of overlay menu-->
+            .faw-card-overlay-btn{
+                bottom: 0;
+                width: 100%;
+                text-align: center;
+                box-shadow: 2px 3px 4px rgba(0, 0, 0, .05) ,-2px 3px 4px rgba(0, 0, 0, .05);
+                transform: translateY(100%);
+                z-index: 3;
+                border-radius:0% 0% 5% 5%!important;   
+            }
+        </style>
+    <body class="h-100">
+       
 
-        <!-- Start of the sticky menu -->
-        <div class="submenu sticky-top  container-fluid pl-0 border-bottom bg-white text-white">
-            <div class="row">
-                <div class="col-md-2 text-center py-3 text-danger">
-                        <a class="btn btn-info " id="sidebar_Trigger" href="#">open side</a>
-                </div>
-                <div class="col-md-10 p-0 border-md-left text-danger">
-                    <ul class="col-12  nav m-0 border-left">
-                        <div class="container w-85">
-                            <label class="col-12 p-1 py-4 size-1_2 m-0 font-weight-bold-600">Mon parcours professionnelle</label>
-                        </div>
-                        
-                    </ul>
-                </div>
+        <div class="faw-card border  p-0 mt-5 mx-auto" style="height:150px; width:200px;">
+            <div class="faw-card-overlay-color h-100"></div>
+            <img src="images/computer.jpg " class="faw-card-overlay-img">
+            <div class="faw-card-overlay-text">
+                Expert en developpement durable et environement
             </div>
-            <div class="wrapper_body">
-
-            </div>
+            <a class="py-2 faw-card-overlay-btn d-block" href="#">Decouvrir</a>
         </div>
-        <!-- end of the sticky menu -->
-        <div class="main-container container-fluid pl-0">
-            <div class="main-container_wrapper row">
-                <!-- this is the beguining of the side bar-->
-                <div class="col-md-2  main-container_sidebar" id="sidebar">
-                    <div class="faw-sticky-top ">
-                        <nav class="sideBar">
-                            <div class="sideBar_containt ">
-                                <ul class="nav flex-column"> 
-                                    <li class="nav-item sidebar_items border-top">
-                                        <a class="nav-link font-weight-bold-500"href="dashboard-form.html">Formations</a>
-                                    </li>
-                                    <li class="nav-item item_active sidebar_items border-top">
-                                        <a class="nav-link font-weight-bold-500" href="dashboard-pro.html">professionnelle</a>
-                                    </li>
-                                    <li class="nav-item sidebar_items border-top">
-                                        <a class="nav-link font-weight-bold-500" href="dashboard-gal.html">Galerie</a>
-                                    </li>
-                                    <li class="nav-item sidebar_items border-top">
-                                        <a class="nav-link font-weight-bold-500" href="dashboard-pers.html">Personnelle</a>
-                                    </li>
-                                    <li class="nav-item sidebar_items border-top">
-                                        <a class="nav-link font-weight-bold-500" href="dashboard-about.html">A propos</a>
-                                    </li>
-                                    <li class="nav-item bg-secondary sidebar_items border-top    border-bottom">
-                                        <a class="nav-link text-white font-weight-bold-500" href="#">Paramètre</a>
-                                    </li>
-                                </ul>  
-                            </div>   
-                        </nav>
-                    </div>
-                </div>
-                
-                <!--end of sidebar-->
-                <div class="content col-lg-10 faw-col-lg-10 col-md-12 faw-px-xs-5-2 border-left">
-                    <!-- card containe-->
-                    <div class="container-fluid faw-container faw-w-sm-90  py-2   ">
-                        <!-- Each  card beguin with a class row to create a box that
-                        content  information about one perso formation-->
-                        
-                        <div class="faw-row row my-4 faw-shadow-sm">
-                            <div class="col-lg-2 col-sm-12  p-0 bg-red-1"></div>
-                            <div class="col-lg-10 col-sm-12 p-0 ">
-                                <div class="py-3 container-fluid border">
-                                <div class="row container-fluid pl-4 faw-pl-4 faw-text-sm-center">
-                                    <div class="col-xs-12 col-sm-12 col-md-9">
-                                        <span class="font-weight-bold d-inline-block py-2">Dessin et art numériques</span>    
-                                    </div>
-                                    <div class="col-md-2  p-O  col-xs-12  col-sm-12 faw-pt-sm-3 offset-md-1 text-center">
-                                        <a class="btn btn-red rad-sm px-3 font-weight-bold-600 size_8" href="#modal" data-toggle="modal">Mettre à jour</a>
-                                    </div>
-                                </div>
-                                </div>
-                                <ul class=" mb-0">
-                                    <li class=" puce-customize pl-0 container py-4 mt-0">
-                                        <div class="row mt-3" >
-                                            <label class="col-xs-12 col-sm-12  size_8 col-md-9">Poste: <span class="font-weight-bold">Developpeur fullstack</span></label> 
-                                            <label class="col-xs-12 col-sm-12 size_8 text-right faw-pt-sm-3 col-md-3"><a href="#" class="f text-danger align-items-end">voir le certificat ></a></label>    
-                                        </div>
-                                    </li> 
-                                    <li class=" puce-customize pl-0 container pb-4  mt-0">
-                                        <div class="row mb-3">
-                                            <label class="col-xs-12 col-sm-12  size_8 col-md-9">
-                                                <span class="font-weight-bold">Description: </span> 
-                                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores asperiores q
-                                                uis incidunt placeat alias autem. Dolor, modi cum aliquam odio fuga eni
-                                                m repellendus, nesciunt, itaque aliquid ut delectus. Tenetur, sint?
-                                            </label> 
-                                            <label class="col-xs-12 col-sm-12 size_8  text-right faw-pt-sm-3 col-md-3"><a href="#" class="f text-danger align-items-end">voir le certificat ></a></label>    
-                                        </div>
-                                    </li> 
-                                </ul>              
-                            </div>
-                        </div> 
-                        <div class="faw-row row my-4 faw-shadow-sm">
-                            <div class="col-lg-2 col-sm-12  p-0 bg-red-1"></div>
-                            <div class="col-lg-10 col-sm-12 p-0 ">
-                                <div class="py-3 container-fluid border">
-                                <div class="row container-fluid pl-4 faw-pl-4 faw-text-sm-center">
-                                    <div class="col-xs-12 col-sm-12 col-md-9">
-                                        <span class="font-weight-bold d-inline-block py-2">Dessin et art numériques</span>    
-                                    </div>
-                                    <div class="col-md-2  p-O  col-xs-12  col-sm-12 faw-pt-sm-3 offset-md-1 text-center">
-                                        <a class="btn btn-red rad-sm px-3 font-weight-bold-600 size_8" href="#modal" data-toggle="modal">Mettre à jour</a>
-                                    </div>
-                                </div>
-                                </div>
-                                <ul class=" mb-0">
-                                    <li class=" puce-customize pl-0 container py-4 mt-0">
-                                        <div class="row mt-3" >
-                                            <label class="col-xs-12 col-sm-12  size_8 col-md-9">Poste: <span class="font-weight-bold">Developpeur fullstack</span></label> 
-                                            <label class="col-xs-12 col-sm-12 size_8 text-right faw-pt-sm-3 col-md-3"><a href="#" class="f text-danger align-items-end">voir le certificat ></a></label>    
-                                        </div>
-                                    </li> 
-                                    <li class=" puce-customize pl-0 container pb-4  mt-0">
-                                        <div class="row mb-3">
-                                            <label class="col-xs-12 col-sm-12  size_8 col-md-9">
-                                                <span class="font-weight-bold">Description: </span> 
-                                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores asperiores q
-                                                uis incidunt placeat alias autem. Dolor, modi cum aliquam odio fuga eni
-                                                m repellendus, nesciunt, itaque aliquid ut delectus. Tenetur, sint?
-                                            </label> 
-                                            <label class="col-xs-12 col-sm-12 size_8  text-right faw-pt-sm-3 col-md-3"><a href="#" class="f text-danger align-items-end">voir le certificat ></a></label>    
-                                        </div>
-                                    </li> 
-                                </ul>              
-                            </div>
-                        </div> 
-                        <div class="faw-row row my-4 faw-shadow-sm">
-                            <div class="col-lg-2 col-sm-12  p-0 bg-red-1"></div>
-                            <div class="col-lg-10 col-sm-12 p-0 ">
-                                <div class="py-3 container-fluid border">
-                                <div class="row container-fluid pl-4 faw-pl-4 faw-text-sm-center">
-                                    <div class="col-xs-12 col-sm-12 col-md-9">
-                                        <span class="font-weight-bold d-inline-block py-2">Dessin et art numériques</span>    
-                                    </div>
-                                    <div class="col-md-2  p-O  col-xs-12  col-sm-12 faw-pt-sm-3 offset-md-1 text-center">
-                                        <a class="btn btn-red rad-sm px-3 font-weight-bold-600 size_8" href="#modal" data-toggle="modal">Mettre à jour</a>
-                                    </div>
-                                </div>
-                                </div>
-                                <ul class=" mb-0">
-                                    <li class=" puce-customize pl-0 container py-4 mt-0">
-                                        <div class="row mt-3" >
-                                            <label class="col-xs-12 col-sm-12  size_8 col-md-9">Poste: <span class="font-weight-bold">Developpeur fullstack</span></label> 
-                                            <label class="col-xs-12 col-sm-12 size_8 text-right faw-pt-sm-3 col-md-3"><a href="#" class="f text-danger align-items-end">voir le certificat ></a></label>    
-                                        </div>
-                                    </li> 
-                                    <li class=" puce-customize pl-0 container pb-4  mt-0">
-                                        <div class="row mb-3">
-                                            <label class="col-xs-12 col-sm-12  size_8 col-md-9">
-                                                <span class="font-weight-bold">Description: </span> 
-                                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores asperiores q
-                                                uis incidunt placeat alias autem. Dolor, modi cum aliquam odio fuga eni
-                                                m repellendus, nesciunt, itaque aliquid ut delectus. Tenetur, sint?
-                                            </label> 
-                                            <label class="col-xs-12 col-sm-12 size_8  text-right faw-pt-sm-3 col-md-3"><a href="#" class="f text-danger align-items-end">voir le certificat ></a></label>    
-                                        </div>
-                                    </li> 
-                                </ul>              
-                            </div>
-                        </div> 
-                        <div class="faw-row row my-4 faw-shadow-sm">
-                            <div class="col-lg-2 col-sm-12  p-0 bg-red-1"></div>
-                            <div class="col-lg-10 col-sm-12 p-0 ">
-                                <div class="py-3 container-fluid border">
-                                <div class="row container-fluid pl-4 faw-pl-4 faw-text-sm-center">
-                                    <div class="col-xs-12 col-sm-12 col-md-9">
-                                        <span class="font-weight-bold d-inline-block py-2">Dessin et art numériques</span>    
-                                    </div>
-                                    <div class="col-md-2  p-O  col-xs-12  col-sm-12 faw-pt-sm-3 offset-md-1 text-center">
-                                        <a class="btn btn-red rad-sm px-3 font-weight-bold-600 size_8" href="#modal" data-toggle="modal">Mettre à jour</a>
-                                    </div>
-                                </div>
-                                </div>
-                                <ul class=" mb-0">
-                                    <li class=" puce-customize pl-0 container py-4 mt-0">
-                                        <div class="row mt-3" >
-                                            <label class="col-xs-12 col-sm-12  size_8 col-md-9">Poste: <span class="font-weight-bold">Developpeur fullstack</span></label> 
-                                            <label class="col-xs-12 col-sm-12 size_8 text-right faw-pt-sm-3 col-md-3"><a href="#" class="f text-danger align-items-end">voir le certificat ></a></label>    
-                                        </div>
-                                    </li> 
-                                    <li class=" puce-customize pl-0 container pb-4  mt-0">
-                                        <div class="row mb-3">
-                                            <label class="col-xs-12 col-sm-12  size_8 col-md-9">
-                                                <span class="font-weight-bold">Description: </span> 
-                                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores asperiores q
-                                                uis incidunt placeat alias autem. Dolor, modi cum aliquam odio fuga eni
-                                                m repellendus, nesciunt, itaque aliquid ut delectus. Tenetur, sint?
-                                            </label> 
-                                            <label class="col-xs-12 col-sm-12 size_8  text-right faw-pt-sm-3 col-md-3"><a href="#" class="f text-danger align-items-end">voir le certificat ></a></label>    
-                                        </div>
-                                    </li> 
-                                </ul>              
-                            </div>
-                        </div> 
-                        <div class="faw-row row my-4 faw-shadow-sm">
-                            <div class="col-lg-2 col-sm-12  p-0 bg-red-1"></div>
-                            <div class="col-lg-10 col-sm-12 p-0 ">
-                                <div class="py-3 container-fluid border">
-                                <div class="row container-fluid pl-4 faw-pl-4 faw-text-sm-center">
-                                    <div class="col-xs-12 col-sm-12 col-md-9">
-                                        <span class="font-weight-bold d-inline-block py-2">Dessin et art numériques</span>    
-                                    </div>
-                                    <div class="col-md-2  p-O  col-xs-12  col-sm-12 faw-pt-sm-3 offset-md-1 text-center">
-                                        <a class="btn btn-red rad-sm px-3 font-weight-bold-600 size_8" href="#modal" data-toggle="modal">Mettre à jour</a>
-                                    </div>
-                                </div>
-                                </div>
-                                <ul class=" mb-0">
-                                    <li class=" puce-customize pl-0 container py-4 mt-0">
-                                        <div class="row mt-3" >
-                                            <label class="col-xs-12 col-sm-12  size_8 col-md-9">Poste: <span class="font-weight-bold">Developpeur fullstack</span></label> 
-                                            <label class="col-xs-12 col-sm-12 size_8 text-right faw-pt-sm-3 col-md-3"><a href="#" class="f text-danger align-items-end">voir le certificat ></a></label>    
-                                        </div>
-                                    </li> 
-                                    <li class=" puce-customize pl-0 container pb-4  mt-0">
-                                        <div class="row mb-3">
-                                            <label class="col-xs-12 col-sm-12  size_8 col-md-9">
-                                                <span class="font-weight-bold">Description: </span> 
-                                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores asperiores q
-                                                uis incidunt placeat alias autem. Dolor, modi cum aliquam odio fuga eni
-                                                m repellendus, nesciunt, itaque aliquid ut delectus. Tenetur, sint?
-                                            </label> 
-                                            <label class="col-xs-12 col-sm-12 size_8  text-right faw-pt-sm-3 col-md-3"><a href="#" class="f text-danger align-items-end">voir le certificat ></a></label>    
-                                        </div>
-                                    </li> 
-                                </ul>              
-                            </div>
-                        </div> 
-                    </div>
-                    <!-- end od card element-->
-                </div>
-                <!-- end od card element-->
-            </div>
+        
 
-            <!--Beguining of modal box-->
-           
-             <!--end of modal box-->
-        </div>
-        <div id="sideBarResponsive" class="sidenav">
-                <div class="sidefont">
-                    <div class="side-content">
-                            <ul class="nav  flex-column"> 
-                                <li class="nav-item sidebar_items border-top">
-                                    <a class="nav-link font-weight-bold-500"href="dashboard-form.html">Formations</a>
-                                </li>
-                                <li class="nav-item item_active sidebar_items border-top">
-                                    <a class="nav-link font-weight-bold-500" href="dashboard-pro.html">professionnelle</a>
-                                </li>
-                                <li class="nav-item sidebar_items border-top">
-                                    <a class="nav-link font-weight-bold-500" href="dashboard-gal.html">Galerie</a>
-                                </li>
-                                <li class="nav-item sidebar_items border-top">
-                                    <a class="nav-link font-weight-bold-500" href="dashboard-pers.html">Personnelle</a>
-                                </li>
-                                <li class="nav-item sidebar_items border-top">
-                                    <a class="nav-link font-weight-bold-500" href="dashboard-about.html">A propos</a>
-                                </li>
-                                <li class="nav-item bg-secondary sidebar_items border-top    border-bottom">
-                                    <a class="nav-link text-white font-weight-bold-500" href="#">Paramètre</a>
-                                </li>
-                            </ul>  
-                    </div>
-                </div>
-            </div>
+
+
+
+        
         <script type="text/javaScript" src="bootstrap/js/jquery.slim.min.js"></script>
         <script type="text/javascript" src="bootstrap/js/popper.min.js"></script>
         <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>

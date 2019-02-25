@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900');
+
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0 auto;
+    font-family: poppins;
+}
+body{
+    font-family:'Poppins',sans-serif ;
+    overflow-x:hidden;
+    width: 100%;
+    height: 100%;
+    color:grey
+}
+/* -------------------------------body page----------------------------------------- */
+
+/* --------------------------categories blocks header------------------------------- */
+.header_tilte{
+    font-size: 40px;
+    font-weight: bold !important;
+}
+.header_search_buttom, .header_search_icons{
+    /* position: relative; */
+    /* top: 0.3em; */
+}
+.header_search:focus{
+   box-shadow: none;
+}
+.search_ways{
+    left: -7em;
+}
+.categories_panel small {
+    font-weight: 600;
+    padding-left: 0em;
+}
+.categories_panel {
+    height: auto !important;
+    overflow: hidden;
+}
+
+.categorie_bock_left{
+    padding: 1% 0px 1% 5%;
+    border-right: solid #dedede 0.5px;
+}
+.header_tilte{
+    font-size: 40px;
+    font-weight: bold !important;
+    text-align: center;
+}
+.categorie_bock_center{
+    padding: 1.5% 0px 1% 1%;
+    border-bottom: solid #dedede 0.5px;
+    height: auto;
+}
+.categorie_bock_right{
+    padding:1%;
+    border-bottom: solid #dedede 0.5px;
+    box-shadow: 1px 4px 3px rgba(1, 0, 0, .1), -1px -0.6px 3px rgba(0, 0, 0, .1);
+
+}
+.button_red,.button_white{
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 1em;
+    font-weight:bold !important;
+    display: inline-block;
+    padding-left: 1em;
+    padding-right: 1.5em;
+
+
+}
+.button_white{
+  color: rgba(225, 18, 53) !important;  
+  border: solid rgba(225, 18, 53) 1px !important;
+  background-color: white !important;
+  
+} 
+
+.categorie_bock_center .btn {
+    margin:0 0 1em 1.5em !important;
+  
+}
+.categorie_bock_center .btn {
+    margin:0 0 1em 1.5em !important;
+  
+}
+.overlay{
+    background:url(../maquettes/chris-adamus-30862-unsplash.jpg); 
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.overlay_color{
+    background:rgba(225, 18, 53, 0.77); 
+}
+
+/* ------------------------------boby------------------------------- */
+
+/* ----------------------------categories part--------------------- */
+.categorie_bock_left{
+    /* padding: 1% 0px 1% 5%; */
+    border: solid #dedede 1px;
+}
+.text-categorie{
+    margin-top: 5em;
+}
+.categorie_bock_left, span{
+    color: rgba(225, 18, 53);
+    position: relative;
+    padding-top: 1.5em;
+    font-weight: bold;
+    font-size: 1.3em !important;
+}
+.categories_bock_left, small{
+    font-weight:bold;
+}
+.categorie_block_center{
+    padding: 1.5% 0px 1% 1%;
+    border-bottom: solid #dedede 1px;
+    height:auto;
+}
+.header_search_icons{
+    position: relative;
+    top: 0.3em;
+}
+.header_search:focus{
+    box-shadow: none;
+}
+
+/* ---------------------part information---------------------------- */
+.categorie_block_information,h1{
+    color:rgba(225, 18, 53); 
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.button_storie_red{
+    color: white;
+    background: rgba(225, 18, 53, 0.77); 
+    height: auto;
+}
+.categories_bock_left{
+    padding: 0% 0% 0% 3.5%;
+    position: relative;
+    top: 0px;
+    /* border:1px solid black; */
+    /* z-index: 12222; */
+    /* border-right: solid #dedede 0.5px; */
+}
+.categorie_block_information{
+    border: none;
+    padding: 3em;
+}
+.categories-card{
+    border:solid #eeeeee 1px;
+    height:auto;
+    box-shadow: 1px 4px 3px rgba(1, 0, 0, .1), -1px -0.6px 3px rgba(0, 0, 0, .1);
+}
+.categories-card-image{
+    height: auto;
+    background-image: url("../maquettes/51677956-16a8-4dae-aecd-b272860d9248.jpeg");
+    background-size: cover;
+}
+.categories-card_buttom {
+    border-top: solid #dedede 1px;
+    height: auto;
+    
+}
+
+.border-bottom-grey{
+    border-bottom: 1px solid rgba(255, 255,255, .3);
+}
+.btn_dessin{
+    top:-0.4em;
+    height: auto !important;
+    width: auto !important;
+}
+.categories-card ,h3{
+    color: #686767;
+    font-weight:bold;
+    padding: 1em;
+    font-size: 1.3em;
+}
+.categories-card, p{
+    color: gray;
+    font-size: 0.9em;
+    padding-left: 1.5em;
+    font-weight: 400;
+}
+.categories-card{
+    margin-left: 3em !important;
+    margin-bottom: 3em !important;
+}
+.categorie_block_center_card {
+    border-top: solid #dedede 0.5px;
+    border-left: solid #dedede 0.5px;
+    padding-bottom: 6em;
+}
+.buttom_storie{
+    background-color: rgba(225, 18, 53, 0.77);
+    text-align: center;
+    color: white;
+    font-size: 0.8em;
+    font-weight:bold;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px; 
+    cursor: pointer;
+    height: auto;
+}
+.buttom_ways{
+    height: auto;
+    background-color:white;
+    text-align: center;
+    color: rgba(225, 18, 53, 0.77);
+    font-size: 0.8em;
+    font-weight: bold;
+    border: solid rgba(225, 18, 53, 0.77) 1px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px; 
+    cursor: pointer;
+}
+b{
+    font-weight: bold;
+}
+
+/* -------------------------------media query---------------------------- */
+@media screen and (max-width:590px){
+    .header_tilte{
+        text-align: center !important;
+    }
+    .header_tilte_mobile{
+        margin: 0% !important;
+        padding: 0% !important;
+    }
+    .categories-card{
+        margin-left: 0px !important;
+        margin-bottom: none !important;
+    }
+    .categorie_block_information,h1{
+       padding-bottom:2em;
+    }
+    .search_ways {
+        left:0px !important;
+    }
+}
+
+
+

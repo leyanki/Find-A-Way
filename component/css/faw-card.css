@@ -1,0 +1,54 @@
+.faw-card{
+    position: relative;
+    border-radius:5% 5% 0% 0% !important;    
+
+}
+
+.faw-card *{
+    position:absolute;
+}
+.faw-card-overlay-color{
+    background: rgba(225, 18, 53, 0.17);
+    width: 100%;
+    height: 100%;
+    z-index:2;
+    border-radius:5% 5% 0% 0%!important;   
+    top:0;
+    left:0;
+}
+.faw-card-overlay-img{
+    width: 100%;
+    border-radius:5% 5% 0% 0%!important;  
+    height: 100%;
+    top:0;
+    left:0;
+    z-index:1;
+    object-fit: cover;
+}
+.faw-card-overlay-text{
+    width: 100%;
+    top:35%;
+    text-align: center;
+    font-weight: 500 !important;
+    font-size:0.8rem;
+    transform:translateY(-50%);
+    z-index:3;
+    padding: 1em;
+    color:white !important;
+
+}
+
+.faw-card-overlay-btn{
+    text-decoration: none;
+    color:#e11235 !important;
+}
+
+.faw-card-overlay-btn{
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, .05) ,-2px 3px 4px rgba(0, 0, 0, .05);
+    transform: translateY(100%);
+    z-index: 3;
+    border-radius:0% 0% 5% 5%!important;   
+}

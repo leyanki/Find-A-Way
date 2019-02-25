@@ -1,0 +1,189 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0 auto;
+    font-family: poppins;
+}
+/* -------------------------------body page----------------------------------------- */
+
+/* --------------------------categories blocks header------------------------------- */
+.header_tilte{
+    font-size:2em;
+    font-weight:bold !important;
+}
+.header_block_mobile, h4{
+    font-size: 1em;
+}
+.header_search_buttom, .header_search_icons{
+    position: relative;
+    top: 0.3em;
+}
+.header_search:focus{
+   box-shadow: none;
+}
+.categories_panel small {
+    font-weight: 600;
+    padding-left: 0em;
+}
+.categories_panel {
+    height: 5em !important;
+    overflow: hidden;
+}
+.temoignage_image_right_circle_of_rene {
+    width: 5em;
+    height:5em;
+    border-radius: 50em;
+    border:none;
+}
+
+.categorie_bock_left{
+    padding: 1% 0px 1% 5%;
+    border-right: solid #dedede 1px;
+}
+.categorie_bock_center{
+    padding: 1.5% 0px 1% 1%;
+    border-bottom: solid #dedede 1px;
+    height: 5em;
+}
+.categorie_bock_right{
+    padding:1%;
+    border-bottom: solid #dedede 1px;
+    box-shadow:-6px -4px 10px rgba(0, 0, 0, 0.16); 
+
+}
+.button_red,.button_white{
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 1em;
+    font-weight:bold !important;
+    display: inline-block;
+    padding-left: 1em;
+    padding-right: 1.5em;
+
+
+}
+.button_white{
+  color: rgba(225, 18, 53) !important;  
+  border: solid rgba(225, 18, 53) 1px !important;
+  background-color: white !important;
+  
+} 
+
+.categorie_bock_center .btn {
+    margin:0 0 1em 1.5em !important;
+  
+}
+.categorie_bock_center .btn {
+    margin:0 0 1em 1.5em !important;
+  
+}
+.overlay{
+    background:url(../maquettes/chris-adamus-30862-unsplash.jpg); 
+    background-size:cover;
+    background-repeat:no-repeat;
+    height: 30em;
+}
+
+.overlay_color{
+    background:rgba(225, 18, 53, 0.77); 
+    height: 30em;
+}
+
+/* ------------------------------boby------------------------------- */
+
+/* ----------------------------categories part--------------------- */
+.categorie_bock_left{
+    padding: 1% 0px 1% 5%;
+    border: solid #dedede 1px;
+}
+.categorie_bock_left, span{
+    color:rgba(225, 18, 53); 
+}
+.categorie_block_center{
+    padding: 1.5% 0px 1% 1%;
+    border-bottom: solid #dedede 1px;
+    height: 5em;
+}
+.header_search_icons{
+    position: relative;
+    top: 0.3em;
+}
+.header_search:focus{
+    box-shadow: none;
+}
+small{
+    color:rgba(225, 18, 53); 
+    font-size: 1em; 
+}
+
+/* ---------------------part information---------------------------- */
+.categorie_block_information,h1{
+    color:rgba(225, 18, 53); 
+    font-size: 1.2em;
+}
+.button_storie_red{
+    color: white;
+    background: rgba(225, 18, 53, 0.77); 
+    height: 100%;
+}
+.categories_bock_left{
+    border-right: solid #dedede 1px;
+}
+.categorie_block_information{
+    border: none;
+    padding: 3em;
+}
+.categories-card{
+    border:solid #dedede 1px;
+    height: 17em;
+    box-shadow:-4px -4px 10px rgba(0, 0, 0, 0.13); 
+    margin-top: 10em !important;
+}
+.categories-card-image{
+    height: 13em;
+    background-image: url("../maquettes/51677956-16a8-4dae-aecd-b272860d9248.jpeg");
+    background-size: cover;
+}
+.categories-card_buttom{
+    border:solid #dedede 1px;
+    height: 4em;
+}
+.categories-card ,h3{
+    color: #7d7d7d;
+    font-weight: 900;
+    padding: 1em;
+    font-size: 1.3em;
+}
+.categories-card, p{
+    color: gray;
+    font-size: 1em;
+    padding-left: 1.5em;
+    font-weight: 100;
+}
+.categories-card{
+    margin-left: 3em !important;
+    margin-bottom: 3em !important;
+}
+.categorie_block_center_card {
+    border-top: solid #dedede 0.5px;
+    border-left: solid #dedede 0.5px;
+    padding-bottom: 6em;
+}
+.part-formations{
+    background-color: rgba(225, 18, 53, 0.77); 
+}
+.part-formations, h1{
+    color: white;
+    font-size: 1em;
+    text-align: center;
+}
+.part-formation, h1{
+    color: rgb(173, 172, 172);
+    font-size: 1em;
+    text-align: center;
+}
+.part-parametres{
+    background-color: #7d7d7d;
+}
