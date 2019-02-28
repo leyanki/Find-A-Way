@@ -152,6 +152,9 @@ body{
 .border-red{
     border-color:rgba(225, 18, 53, 0.77) !important; 
 }
+.border-red-1{
+    border-color:rgba(225, 18, 53, 1) !important; 
+}
 
 .border-bottom-grey{
     border-bottom: 1px solid rgba(255, 255,255, .3);
@@ -358,6 +361,8 @@ body{
     max-width: 50% !important;
     margin: 2rem auto !important;
 }
+
+
 
 
 /**** end other slide ****/

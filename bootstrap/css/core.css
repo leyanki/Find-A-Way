@@ -227,4 +227,69 @@
 /**** end style time line ****/
 
 
+/**** footer style ****/
+/* --------------------------------footer-------------------------------- */
+ .footer{
+    left:0.9em;
+    background: url("../../maquettes/photo5886489508415909669.jpg");
+    background-size: cover;
+    background-position: center top;
+    padding-top: 16% !important;
+
+ }
+ /* .footer>div{
+     margin-bottom: 5em;
+ } */
+ .footer h5{
+     color: white;
+     font-weight: bold;
+     font-size: 1.35em;
+ }
+ .footer p{
+     color: white;
+     font-size: 1em;
+     font-weight: 500;
+ }
+ .section_ulife h1{
+     color: #707070;
+     font-size:1.2em;
+     font-weight: bold;
+ }
+ .section_ulife h2{
+     color: #707070;
+     font-size:1em;
+ }
+ .button_red,.button_white{
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 1em;
+    font-weight:bold !important;
+    display: inline-block;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+
+
+}
+.button_white{
+  color: rgba(225, 18, 53) !important;  
+  border: solid rgba(225, 18, 53) 1px !important;
+  background-color: white !important;
+  
+} 
+
+@media screen and (max-width :576px){
+    /* ---------------------responsive footer---------------------------- */
+    .footer_contact_text{
+        text-align: center !important;
+    }
+    .footer{
+        background-position: bottom right;
+        padding-top: 22% !important; 
+    } 
+}
+
+
+/**** end of footer ****/
+
 

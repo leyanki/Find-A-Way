@@ -38,6 +38,9 @@
       .faw-w-sm-75{
         width: 100% !important;
       }
+      .faw-pr-md-5 {
+        margin-right: 0px !important;
+      }
 }
 
 @media (min-width:992px) and (max-width:1024px){

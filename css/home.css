@@ -9,8 +9,8 @@ html,body{
 
 /* -------------------------------categories blocks--------------------------------- */
 .header_tilte{
-    font-size: 40px;
-    font-weight: 900 !important;
+    font-size: 2.3em;;
+    font-weight: 700 !important;
 }
 .header_search_buttom, .header_search_icons{
     position: relative;
@@ -210,13 +210,13 @@ html,body{
 }
 .presentation_of_temoignage h1{
     color: #e11235;
-    font-weight: 900;
+    font-weight: 700;
     font-size: 1.5em;
 }
 .presentation_of_temoignage h5{
     color: #e11235;
     margin-bottom: 1.5em;
-    font-weight: 900;
+    font-weight: 700;
 }
 .presentation_of_temoignage p{
     color: #e11235;
@@ -407,7 +407,7 @@ html,body{
     }
     .header_tilte_mobile{
         font-size: 20px !important;
-        font-weight: 900 !important;
+        font-weight: 700 !important;
         margin: none !important;
         padding: none !important;
         margin-top: 5em;

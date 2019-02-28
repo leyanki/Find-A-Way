@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
-    <head class="h-100">
+    <head>
         <meta charset="utf-8" />
+
+            
         <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
         <title>Page Title</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,79 +13,368 @@
         <link rel="stylesheet" href="bootstrap/css/app.css"/>
         <link rel="stylesheet" href="bootstrap/css/utilities.css"/>
         <link rel="stylesheet" href="bootstrap/css/core.css">
-        <link rel="stylesheet" href="bootstrap/css/layout.css">
-        <style>
-            .faw-card{
-                position: relative;
-                border-radius:5% 5% 0% 0% !important;    
-
-            }
-
-            .faw-card *{
-                position:absolute;
-            }
-            .faw-card-overlay-color{
-                background: red;
-                opacity: .4;
-                width: 100%;
-                height: 100%;
-                z-index:2;
-                border-radius:5% 5% 0% 0%!important;   
-                top:0;
-                left:0;
-            }
-            .faw-card-overlay-img{
-                width: 100%;
-                border-radius:5% 5% 0% 0%!important;  
-                height: 100%;
-                top:0;
-                left:0;
-                z-index:1;
-            }
-            .faw-card-overlay-text{
-                width: 100%;
-                top:35%;
-                text-align: center;
-                font-weight: 500 !important;
-                font-size:0.85rem;
-                transform:translateY(-50%);
-                z-index:3;
-                padding: 2px 5px;
-                color:white;
-            }
-            
-            .faw-card-overlay-btn{
-                bottom: 0;
-                width: 100%;
-                text-align: center;
-                box-shadow: 2px 3px 4px rgba(0, 0, 0, .05) ,-2px 3px 4px rgba(0, 0, 0, .05);
-                transform: translateY(100%);
-                z-index: 3;
-                border-radius:0% 0% 5% 5%!important;   
-            }
-        </style>
-    <body class="h-100">
-       
-
-        <div class="faw-card border  p-0 mt-5 mx-auto" style="height:150px; width:200px;">
-            <div class="faw-card-overlay-color h-100"></div>
-            <img src="images/computer.jpg " class="faw-card-overlay-img">
-            <div class="faw-card-overlay-text">
-                Expert en developpement durable et environement
+        <link rel="stylesheet" href="bootstrap/css/responsive.css">
+        <link rel="stylesheet" href="component/css/faw-card.css">
+        <link rel="stylesheet" href="bootstrap/css/layout.css"/>
+        <link rel="stylesheet" href="aos-master/dist/aos.css"/>
+    </head>
+    <body >
+        <!--that is a header which include nav+banniere-->
+        <div class="overlay  text-light h-80">
+            <div class="overlay_color h-100">
+                <div class="overlay_containt">
+                    <nav class="navbar navbar-expand-md  navbar-light border-bottom-grey">
+                        <div class="container"> 
+                            <a class="navbar-brand"><img src="images/logo.png" class="w-50" alt="F-A-W"/></a>
+                            <button type="button" class="navbar-toggler"  data-toggle="collapse" data-target="#menu">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse  justify-content-end" id="menu">
+                                <ul class="nav navbar-nav">
+                                    <li class="nav-item mx-2 px-2 text-center">
+                                        <a class="nav-link font-weight-bold text-light" href="stories.html">Stories</a>
+                                    </li>
+                                    <li class="nav-item mx-2 px-2 text-center">
+                                        <a class="nav-link font-weight-bold text-light" href="ways.html">Ways</a>
+                                    </li>
+                                    <li class="nav-item mx-2 px-2 text-center">
+                                        <a class="nav-link font-weight-bold text-light" href="#">Categories</a>
+                                    </li>
+                                    <li class="nav-item mx-2 px-2 text-center">
+                                        <a class="nav-link font-weight-bold text-light" href="#">About</a>
+                                    </li>
+                                    <li class="nav-item mx-2 px-2 text-center">
+                                            <a class="btn btn-light font-weight-bold text-red-1 px-4 rad-sm" href="#">Login</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                    
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12  pt-4 col-xs-12 text-center">
+                                <h2 class="display-5 font-weight-bold faw-p-xs-5-2  p-5 mt-5 ">UX DESIGNER CARRERS</h2>
+                                <p class="pb-5 mb-5 faw-xs-w-75 w-75 mx-auto size-1 font-weight-bold-500 ">"Lorem ipsum dolor sit amet consectetur ecto corporis officiis quis voluptatibus, aliquid consequuntur asperiores tempora impedit fugit neque commodi perferendis quos ut! Dolorem."</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
             </div>
-            <a class="py-2 faw-card-overlay-btn d-block" href="#">Decouvrir</a>
+        
         </div>
-        
+    
+        <!-- body-->
+    <div class="container-fluid">
+            <div class="container">
+                <div class="row mt-4 faw-w-sm-85 py-5">
+                    <h6 class="font-weight-important size-1 py-3">Introduction</h6>
+                    <p class="size_8"> 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas animi at voluptates repellat expedita aliquid nesciunt deserunt eaque molestiae optio sed ducimus dignissimos, nisi id ex magni quidem ea reprehenderit?
+                    </p>
+                </div>
+            </div>
+            <!--section 1 body-->
+            <div class="border-left border-red-1 small timeline container mt-5 pb-5">
+                <div class="text-red-1 timeline_item">
+                    <span class=" "> - - - - - - - - - - - -</span><span class="ml-4 font-weight-bold">Presentation general</span>
+                </div>
+            
+                <div class="container faw-w-sm-85 py-5" id="present">
+                    <div class="row mt-3 mb-5  pb-3 line-height-md ">
+                        <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12 pr-md-5 p-0 m-0">
+                            <img src="images/task.jpg" class="faw-w-sm-80 h-auto"/>
+                        </div>
+                        <div class="col-lg-7 col-md-12  col-sm-12 col-xs-12 p-0 faw-pt-sm-5" >
+                            <h6 class="font-weight-bold">Mr Fampou,Qui est ce?</h6>
+                            <p class="container-p">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem consequuntur, dolores corporis eaque eum alias, numquam quos vitae iste tenetur totam amet, iusto ut ipsam! Earum nesciunt adipisci tempora fuga.
+                                orem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem consequuntur, dolores corporis eaque eum alias, numquam quos vitae iste tenetur totam amet, iusto ut ipsam! Earum nesciunt adipisci tempora fuga
+                                orem ipsum dolor sit ametorem ipesum dolor sit amet consectetur adipisicing elit. Exercitationem consequuntur, dolores corporis eaque e
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row mb-5 pb-3 line-height-md">
+                        <div class="col-lg-5 col-md-12  d-sm-block d-md-block d-lg-none col-sm-12 col-xs-12 p-0 m-0">
+                                <img src="images/task.jpg" class="faw-w-sm-80 h-auto" />
+                        </div>
+                        <div class="col-lg-7 col-md-12 col-sm-12 p-0 faw-pt-sm-5">
+                            <h6 class="font-weight-bold ">Quelle sont les demandes en UX design? et où?</h6>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipi sicing elit. Neque praesentium aut quos. Recusandae, quos inventore nulla atque, voluptatibus obcaecati sit et ratione similique natus voluptas odit eum mollitia cupiditate a.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, incidunt quis quos minus ratione ipsa eos cum neque, minima deserunt aliquam pariatur, ullam voluptatem et quas? Sequi ipsum earum tempore?
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, earum quibusdam soluta doloribus nobis nihil eius nemo tempore consequuntur voluptates! Numquam cum quod quaerat cumque eius tenetur? Velit, quia at.
+                            </p>
+                        </div>
+                        <div class="col-md-5 col-sm-12  d-none d-lg-block pl-md-5 col-xs-12 p-0 m-0">
+                                <img src="images/task.jpg" class="faw-w-sm-80 h-auto ml-md-5"    />
+                        </div>
+                    </div>
+                    <div class="row mb-5 line-height-md" data-aos="fade-up">
+                           <div class="col-lg-5 col-md-12 col-sm-12  pr-md-5 faw-pr-md-5   col-xs-12 p-0 m-0">
+                            <img src="images/task.jpg" class="faw-w-sm-80 h-auto"/>
+                        </div>
+                        <div class="col-lg-7  col-md-12 col-sm-12 col-xs-12 p-0 faw-pt-sm-5" >
+                            <h6 class="font-weight-bold">Mr Fampou,Qui est ce?</h6>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem consequuntur, dolores corporis eaque eum alias, numquam quos vitae iste tenetur totam amet, iusto ut ipsam! Earum nesciunt adipisci tempora fuga.
+                                orem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem consequuntur, dolores corporis eaque eum alias, numquam quos vitae iste tenetur totam amet, iusto ut ipsam! Earum nesciunt adipisci tempora fuga
+                                orem ipsum dolor sit ametorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem consequuntur, dolores corporis eaque e
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!--section 2 body-->
+                <div class="text-red-1 timeline_item">
+                    <span class=" "> - - - - - - - - - - - -</span><span class="ml-4 font-weight-bold">Ecoles et formation allant dans le sens de l'ux design</span>
+                </div>
+                <div class="container faw-w-sm-85 py-5 mx-auto mb-2">
+                    <div class="row shadow-sm my-5">
+                        <div class="col-md-12 col-lg-3 small p-0">
+                                <img src="images/task.jpg" class="w-100"/>
+                        </div>
+                        <div class="col-md-12 col-lg-9 px-3 line-height-md faw-pt-sm-3">
+                            <h6 class="font-weight-bold py-2 ">Quelle sont les demandes en UX design? et où?</h6>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur eaque deserunt repellendus delectus earum, dolorum neque accusantium dolores odio tempora eum nihil ad error itaque rerum molestiae temporibus commodi tenetur?</p> 
+                        </div>
+                    </div>
+                    <div class="row shadow-sm mb-5">
+                        <div class="col-md-12 col-lg-3 small p-0">
+                                <img src="images/task.jpg" class="w-100"/>
+                        </div>
+                        <div class="col-md-12 col-lg-9 px-3 line-height-md faw-pt-sm-3">
+                            <h6 class="font-weight-bold py-2 ">Quelle sont les demandes en UX design? et où?</h6>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur eaque deserunt repellendus delectus earum, dolorum neque accusantium dolores odio tempora eum nihil ad error itaque rerum molestiae temporibus commodi tenetur?</p> 
+                        </div>
+                    </div>
+                    <div class="row shadow-sm mb-5">
+                        <div class="col-md-12 col-lg-3 small p-0">
+                                <img src="images/task.jpg" class="w-100"/>
+                        </div>
+                        <div class="col-md-12 col-lg-9 px-3 line-height-md faw-pt-sm-3">
+                            <h6 class="font-weight-bold py-2 ">Quelle sont les demandes en UX design? et où?</h6>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur eaque deserunt repellendus delectus earum, dolorum neque accusantium dolores odio tempora eum nihil ad error itaque rerum molestiae temporibus commodi tenetur?</p> 
+                        </div>
+                    </div>
+                </div>
+                <div class="text-red-1 timeline_item">
+                    <span class=" "> - - - - - - - - - - - -</span><span class="ml-4 font-weight-bold">Formation en ligne sur le ux design</span>
+                </div>
+                <!--section 3 body-->
+                <div class="container faw-w-sm-85 py-5 mx-auto">
+                    <div class="row mt-5 p-0">
+                        <div class="col-lg-2 col-md-3 py-2  faw-text-sm-center px-0 col-sm-4 col-xs-12">
+                            <img src="images/task.jpg" class="rounded rounded-circle img-rounded-xs" />
+                        </div>
+                        <div class="col-lg-10 col-md-9 py-2 px-0  faw-pt-sm-3 line-height-md col-sm-8 col-xs-12">
+                            <h6 class="font-weight-bold faw-text-sm-center">Mr Fampou,Qui est ce?</h6>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci laudantium tempora officiis doloribus, aspernatur quod? Veritatis nemo ducimus totam alias, expedita reprehenderit praesentium recusandae cum quas ex omnis aut. Sit.
+                                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus ducimus aperiam quasi omnis eius eveniet incidunt, voluptatem ab possimus, nam error delectus eum vitae excepturi. Iure nisi quia doloremque odio.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row mt-5 ">
+                            <div class="col-lg-2 col-md-3 py-2  faw-text-sm-center px-0 d-md-none d-xs-block  px-md-4 col-sm-4 col-xs-12">
+                                    <img src="images/task.jpg" class=" rounded rounded-circle  img-rounded-xs" />
+                                </div>
+                            <div class="col-lg-10 col-md-9 py-2 px-0  faw-pt-sm-3 line-height-md col-sm-8 col-xs-12 align-self-sm-end">
+                                <h6 class="font-weight-bold faw-text-sm-center">Mr Fampou,Qui est ce?</h6>
+                                <p>
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci laudantium tempora officiis doloribus, aspernatur quod? Veritatis nemo ducimus totam alias, expedita reprehenderit praesentium recusandae cum quas ex omnis aut. Sit.
+                                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus ducimus aperiam quasi omnis eius eveniet incidunt, voluptatem ab possimus, nam error delectus eum vitae excepturi. Iure nisi quia doloremque odio.
+                                </p>
+                            </div>
+                        <div class="col-lg-2 col-md-3 py-2  faw-text-sm-center px-0  d-md-block d-lg-block d-none   px-md-4 col-sm-4 col-xs-12 text-right">
+                            <img src="images/task.jpg" class=" rounded rounded-circle  img-rounded-xs" />
+                        </div>
+                    </div>
+                    <div class="row mt-5 p-0">
+                        <div class="col-lg-2 col-md-3 py-2  faw-text-sm-center px-0  col-sm-4 col-xs-12">
+                            <img src="images/task.jpg" class="rounded rounded-circle img-rounded-xs" />
+                        </div>
+                        <div class="col-lg-10 col-md-9 py-2 px-0  faw-pt-sm-3 line-height-md col-sm-8 col-xs-12">
+                            <h6 class="font-weight-bold faw-text-sm-center">Mr Fampou,Qui est ce?</h6>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci laudantium tempora officiis doloribus, aspernatur quod? Veritatis nemo ducimus totam alias, expedita reprehenderit praesentium recusandae cum quas ex omnis aut. Sit.
+                                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus ducimus aperiam quasi omnis eius eveniet incidunt, voluptatem ab possimus, nam error delectus eum vitae excepturi. Iure nisi quia doloremque odio.
+                            </p>
+                        </div>
+                    </div>                
+                </div>
+            </div>
+    </div>
+        <!-- red-block-->
+        <div class="container-fluid bg-red-1 text-light text-center p-3">
+            <h6 class="font-weight-bold py-4 ">Sapiente deserunt fugiat tenetur facere odio? Enim ducimus placeat quo l, pr</h6>
+            <a href="#" class="btn btn-light font-weight-bold  text-red-1 rad-sm  mt-4 mb-5">Ajouter à mes formations</a>
+        </div>
+        <div class="container-fluid">
+            <!-- there is a slider place 1-->
+            <div class="background-rect ">
+                <div class="container ">  
+                    <div class="row mt-5" >
+                        <h5 class="font-weight-bold text-center text-red-1 size-1_2">Vous pourrez aussi découvrir . . .</h5>
+                    </div>  
+                    <div class="slide your-class ">
+                        <div class="card border-0 bg-transparent py-2" >
+                            <img class="card-img-top mx-auto  img-rounded-xs rounded rounded-circle " src="images/computer.jpg">
+                            <div class="card-body text-center">
+                                <h6 class="font-weight-bold ">Mr rene bengue</h6>
+                                <h6 class="small">Mr rene bengue</h6>
+                            </div>
+                        </div>
+                        <div class="card  border-0 bg-transparent ">
+                            <img class="card-img-top mx-auto  img-rounded-xs rounded rounded-circle " src="images/task.jpg">
+                            <div class="card-body text-center">
+                                <h6 class="font-weight-bold">Mr rene bengue</h6>
+                                <h6 class="small">Mr rene bengue</h6>
+                            </div>
+                        </div>
+                                    
+                        <div class="card  border-0 bg-transparent">
+                            <img class="card-img-top mx-auto  img-rounded-xs rounded rounded-circle " src="images/computer.jpg">
+                            <div class="card-body text-center">
+                                <h6 class="font-weight-bold">Mr rene bengue</h6>
+                                <h6 class="small">Mr rene bengue</h6>
+                            </div>
+                        </div>   
+                        <div class="card  border-0 bg-transparent">
+                            <img class= "card-img-top mx-auto  img-rounded-xs rounded rounded-circle" src="images/computer.jpg">
+                            <div class="card-body text-center">
+                                <h6 class="font-weight-bold">Mr rene bengue</h6>
+                                <h6 class="small">Mr rene bengue</h6>
+                            </div>
+                        </div>
+                        <div class="card  border-0 bg-transparent">
+                            <img class="card-img-top mx-auto  img-rounded-xs rounded rounded-circle" src="images/task.jpg">
+                            <div class="card-body text-center">
+                                <h6 class="font-weight-bold">Mr rene bengue</h6>
+                                <h6 class="small">Mr rene bengue</h6>
+                            </div>
+                        </div>
+                                        
+                        <div class="card border-0 bg-transparent">
+                            <img class="card-img-top mx-auto  img-rounded-xs rounded rounded-circle " src="images/computer.jpg">
+                            <div class="card-body text-center">
+                                <h6 class="font-weight-bold">Mr rene bengue</h6>
+                                <h6 class="small">Mr rene bengue</h6>
+                            </div>
+                        </div>            
+                    </div>    
+                </div> 
+            </div>
+            <!-- there is a slider place 2-->
+            <div class=" container my-5">  
+                    <div class="row ">
+                        <h4 class="font-weight-bold text-center text-red-1 size-1_2 mb-3">Vous pourrez aussi découvrir . . .</h4>
+                    </div>  
+                    <div class="slide your-class py-5" style="padding: 0px;">
+                        <div class="faw-card border-none p-0 mx-3" style="height:150px; width:200px;">
+                            <div class="faw-card-overlay-color"></div>
+                            <img src="images/computer.jpg " class="faw-card-overlay-img">
+                            <div class="faw-card-overlay-text">
+                                Expert en developpement durable et environement
+                            </div>
+                        </div>
+                                
+                        <div class="faw-card border-none p-0 mx-3" style="height:150px; width:200px;">
+                            <div class="faw-card-overlay-color"></div>
+                            <img src="images/computer.jpg " class="faw-card-overlay-img">
+                            <div class="faw-card-overlay-text">
+                                Expert en developpement durable et environement
+                            </div>
+                        </div>
+                            
+                        <div class="faw-card border-none p-0 mx-3" style="height:150px; width:200px;">
+                            <div class="faw-card-overlay-color"></div>
+                            <img src="images/computer.jpg " class="faw-card-overlay-img">
+                            <div class="faw-card-overlay-text">
+                                Expert en developpement durable et environement
+                            </div>
+                        </div>
+                
+                        <div class="faw-card border-none p-0 mx-3" style="height:150px; width:200px;">
+                            <div class="faw-card-overlay-color faw-card-border-raduis-top"></div>
+                            <img src="images/computer.jpg " class="faw-card-overlay-img">
+                            <div class="faw-card-overlay-text">
+                                Expert en developpement durable et environement
+                            </div>
+                        </div>
+                        <div class="faw-card border-none p-0 mx-3" style="height:150px; width:200px;">
+                            <div class="faw-card-overlay-color faw-card-border-raduis-top"></div>
+                            <img src="images/computer.jpg " class="faw-card-overlay-img">
+                            <div class="faw-card-overlay-text">
+                                Expert en developpement durable et environement
+                            </div>
+                        </div>
+                
+                        <div class="faw-card border-none p-0 mx-3" style="height:150px; width:200px;">
+                            <div class="faw-card-overlay-color"></div>
+                            <img src="images/computer.jpg " class="faw-card-overlay-img">
+                            <div class="faw-card-overlay-text">
+                                Expert en developpement durable et environement
+                            </div>
+                        </div>
+                        <div class="faw-card border-none p-0 mx-3" style="height:150px; width:200px;">
+                            <div class="faw-card-overlay-color"></div>
+                            <img src="images/computer.jpg " class="faw-card-overlay-img">
+                            <div class="faw-card-overlay-text">
+                                Expert en developpement durable et environement
+                            </div>
+                        </div>
+                                    
+                        <div class="faw-card border-none p-0 mx-3" style="height:150px; width:200px;">
+                            <div class="faw-card-overlay-color"></div>
+                            <img src="images/computer.jpg " class="faw-card-overlay-img">
+                            <div class="faw-card-overlay-text">
+                                Expert en developpement durable et environement
+                            </div>
+                        </div>
+                    </div>    
+                </div>  
+        </div>
+        <!-- footer-->
+        <div class="row p-0 mt-5">
+            <div class=" row col-12 p-0 footer text-center">
+                <div class="col-12 p-0  text-center">
+                    <h5 class="text-center text-white pb-4 col-12">Want to be part of us?</h5>
+                    <div class="col-12">
+                        <p> Join our community and be up to date about new carreers,passion,stories and find the right way for you! </p>
+                    </div>
+                    <div class="col-12 text-center my-4">
+                        <button class="btn btn-danger button_white" type="submit"><small>Join us today</small></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row p-0 section_ulife text-center mt-4 mb-2">
+            <div class="col-lg-2 col-md-2 col-sm-12"><h1>Ulife.co 2018</h1></div>
+            <div class="col-lg-1 col-md-1 col-sm-12"><h2>About</h2></div>
+            <div class="col-lg-1 col-md-1 col-sm-12"><h2>Entreprise</h2></div>
+            <div class="col-lg-1 col-md-1 col-sm-12"><h2>Products</h2></div>
+            <div class="col-lg-2 col-md-2 col-sm-12 text-left footer_contact_text"><h2>Contact us</h2></div>
+            <div class="col-lg-1 col-md-1 col-sm-12 offset-lg-3"><h2>2018</h2></div>
+        </div>
 
-
-
-
-        
         <script type="text/javaScript" src="bootstrap/js/jquery.slim.min.js"></script>
         <script type="text/javascript" src="bootstrap/js/popper.min.js"></script>
         <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="slick/slick.min.js"></script>
         <script src="bootstrap/js/slickCarousel.js"> </script>
-        <script src="bootstrap/js/core.js"> </script>
+        <script src="aos-master/dist/aos.js"></script>
+         <script>
+			AOS.refresh();
+        </script>
+        <script>
+                // hljs.initHighlightingOnLoad();
+    
+                $('.hero__scroll').on('click', function(e) {
+                    $('html, body').animate({
+                        scrollTop: $(window).height()
+                    }, 1200);
+                });
+            </script>
     </body>
-</html>
+</html> 
